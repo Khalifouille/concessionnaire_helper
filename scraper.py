@@ -4,12 +4,9 @@ import json
 
 def get_vehicle_data(url, category_name):
     response = requests.get(url)
-    response.raise_for_status()  
-
+    response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
-
     vehicle_data = []
-
     vehicles = soup.find_all('p', class_='zfr3Q CDt4Ke')
 
     for vehicle in vehicles:
@@ -19,7 +16,7 @@ def get_vehicle_data(url, category_name):
         else:
             continue
 
-        price_tag = vehicle.find_all('span', class_='C9DxTc')[-1] 
+        price_tag = vehicle.find('span', style="color: #000000;")
         if price_tag:
             price = price_tag.text.strip()
         else:
@@ -54,7 +51,7 @@ for category_name, url in categories:
     vehicle_data = get_vehicle_data(url, category_name)
     all_vehicle_data.extend(vehicle_data)
 
-with open('all_vehicles_data.json', 'w', encoding='utf-8') as f:
+with open('all_vehicles_data2.json', 'w', encoding='utf-8') as f:
     json.dump(all_vehicle_data, f, ensure_ascii=False, indent=4)
 
 print("Les données de toutes les catégories ont été enregistrées dans 'all_vehicles_data.json'.")
