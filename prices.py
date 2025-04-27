@@ -4,72 +4,60 @@ import json
 with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
     vehicle_data = json.load(f)
 
-def search_vehicle(vehicle_name, category=None, min_price=None, max_price=None):
+def search_vehicle(category=None, min_price=None, max_price=None):
     results = []
     for vehicle in vehicle_data:
-        if vehicle_name.lower() in vehicle['Nom véhicule'].lower():
-            if category and vehicle['Catégorie'].lower() != category.lower():
-                continue
-            if min_price and vehicle['Prix'] < min_price:
-                continue
-            if max_price and vehicle['Prix'] > max_price:
-                continue
-            results.append(vehicle)
+        if category and vehicle['Catégorie'].lower() != category.lower():
+            continue
+        
+        try:
+            price = float(vehicle['Prix'].replace('$', '').replace(' ', '').strip())
+        except ValueError:
+            price = 0 
+
+        if min_price and price < min_price:
+            continue
+        if max_price and price > max_price:
+            continue
+
+        results.append(vehicle)
     return results
 
-def on_search(event=None):
-    vehicle_name = entry_name.get().strip()
-    category = entry_category.get().strip()
-    
+def on_search(event=None): 
+    category = category_entry.get().strip()
     try:
-        min_price = float(entry_min_price.get().strip()) if entry_min_price.get().strip() else None
-        max_price = float(entry_max_price.get().strip()) if entry_max_price.get().strip() else None
+        min_price = float(min_price_entry.get().strip())
+        max_price = float(max_price_entry.get().strip())
     except ValueError:
-        result_label.config(text="❌ Prix invalide.")
+        result_label.config(text="Veuillez entrer des prix valides.")
         return
 
-    if not vehicle_name:  
-        result_label.config(text="Veuillez entrer un nom de véhicule.")
+    if not category and not min_price and not max_price:
+        result_label.config(text="Veuillez entrer au moins un critère de recherche.")
         return
 
-    results = search_vehicle(vehicle_name, category, min_price, max_price)
+    results = search_vehicle(category, min_price, max_price)
     
     if results:
-        result_text = ""
-        for vehicle in results:
-            result_text += f"Nom : {vehicle['Nom véhicule']}\nCatégorie : {vehicle['Catégorie']}\nPrix : {vehicle['Prix']}$\n\n"
+        result_text = "\n\n".join([f"Nom : {vehicle['Nom véhicule']}\nCatégorie : {vehicle['Catégorie']}\nPrix : {vehicle['Prix']}" for vehicle in results])
         result_label.config(text=result_text)
     else:
-        result_label.config(text="Non trouvée")
+        result_label.config(text="Aucun véhicule trouvé.")
 
 root = tk.Tk()
 root.title("Recherche de Véhicule")
 
-label_name = tk.Label(root, text="Entrez le nom du véhicule :")
-label_name.pack(pady=5)
+tk.Label(root, text="Catégorie de véhicule :").pack(pady=10)
+category_entry = tk.Entry(root, width=30)
+category_entry.pack(pady=10)
 
-entry_name = tk.Entry(root, width=30)
-entry_name.pack(pady=5)
+tk.Label(root, text="Prix minimum :").pack(pady=10)
+min_price_entry = tk.Entry(root, width=30)
+min_price_entry.pack(pady=10)
 
-label_category = tk.Label(root, text="Catégorie de véhicule (optionnelle) :")
-label_category.pack(pady=5)
-
-entry_category = tk.Entry(root, width=30)
-entry_category.pack(pady=5)
-
-label_min_price = tk.Label(root, text="Prix minimum (optionnel) :")
-label_min_price.pack(pady=5)
-
-entry_min_price = tk.Entry(root, width=30)
-entry_min_price.pack(pady=5)
-
-label_max_price = tk.Label(root, text="Prix maximum (optionnel) :")
-label_max_price.pack(pady=5)
-
-entry_max_price = tk.Entry(root, width=30)
-entry_max_price.pack(pady=5)
-
-entry_name.bind("<Return>", on_search)
+tk.Label(root, text="Prix maximum :").pack(pady=10)
+max_price_entry = tk.Entry(root, width=30)
+max_price_entry.pack(pady=10)
 
 search_button = tk.Button(root, text="Rechercher", command=on_search)
 search_button.pack(pady=20)
