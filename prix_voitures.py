@@ -7,7 +7,7 @@ with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
 def search_vehicle(vehicle_name):
     for vehicle in vehicle_data:
         if vehicle_name.lower() in vehicle['Nom véhicule'].lower():
-            return vehicle['Catégorie'], vehicle['Prix']
+            return vehicle['Nom véhicule'], vehicle['Catégorie'], vehicle['Prix']
     return None
 
 def on_search():
@@ -19,8 +19,8 @@ def on_search():
     result = search_vehicle(vehicle_name)
     
     if result:
-        category, price = result
-        result_label.config(text=f"Catégorie : {category}\nPrix : {price}")
+        name, category, price = result
+        result_label.config(text=f"Nom : {name}\nCatégorie : {category}\nPrix : {price}")
     else:
         result_label.config(text="Non trouvée")
 
