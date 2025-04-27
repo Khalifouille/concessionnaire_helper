@@ -1,0 +1,44 @@
+import tkinter as tk
+import json
+
+with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
+    vehicle_data = json.load(f)
+
+def search_vehicle(vehicle_name):
+    for vehicle in vehicle_data:
+        if vehicle_name.lower() in vehicle['Nom véhicule'].lower():
+            return vehicle['Nom véhicule'], vehicle['Catégorie'], vehicle['Prix']
+    return None
+
+def on_search(event=None): 
+    vehicle_name = entry.get().strip() 
+    if not vehicle_name:  
+        result_label.config(text="Veuillez entrer un nom de véhicule.")
+        return
+
+    result = search_vehicle(vehicle_name)
+    
+    if result:
+        name, category, price = result
+        result_label.config(text=f"Nom : {name}\nCatégorie : {category}\nPrix : {price}")
+    else:
+        result_label.config(text="Non trouvée")
+
+root = tk.Tk()
+root.title("Recherche de Véhicule")
+
+label = tk.Label(root, text="Entrez le nom du véhicule :")
+label.pack(pady=10)
+
+entry = tk.Entry(root, width=30)
+entry.pack(pady=10)
+
+entry.bind("<Return>", on_search)
+
+search_button = tk.Button(root, text="Rechercher", command=on_search)
+search_button.pack(pady=20)
+
+result_label = tk.Label(root, text="", font=('Arial', 12), justify='left')
+result_label.pack(pady=20)
+
+root.mainloop()
