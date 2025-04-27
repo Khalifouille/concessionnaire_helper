@@ -57,12 +57,12 @@
     {
         "Catégorie": "Compact",
         "Nom véhicule": "WEEVIL",
-        "Prix": "5 250"
+        "Prix": "5 250 $"
     },
     {
         "Catégorie": "Compact",
         "Nom véhicule": "BRIOSO 300 LARGE",
-        "Prix": "6 500$"
+        "Prix": "6 500 $"
     },
     {
         "Catégorie": "Coupés",
@@ -92,7 +92,7 @@
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "ZION",
-        "Prix": "23 750"
+        "Prix": "23 750 $"
     },
     {
         "Catégorie": "Coupés",
@@ -127,12 +127,12 @@
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "FELON GT",
-        "Prix": "44 375"
+        "Prix": "44 375 $"
     },
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "EXEMPLAR",
-        "Prix": "48 125"
+        "Prix": "48 125 $"
     },
     {
         "Catégorie": "Coupés",
@@ -147,7 +147,7 @@
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "ORACLE XSLE",
-        "Prix": "70 000"
+        "Prix": "70 000 $"
     },
     {
         "Catégorie": "Coupés",
@@ -222,7 +222,7 @@
     {
         "Catégorie": "Sedans",
         "Nom véhicule": "WARRENER",
-        "Prix": "2 125"
+        "Prix": "2 125 $"
     },
     {
         "Catégorie": "Sedans",
@@ -232,7 +232,7 @@
     {
         "Catégorie": "Sedans",
         "Nom véhicule": "GLENDALE",
-        "Prix": "3 125"
+        "Prix": "3 125 $"
     },
     {
         "Catégorie": "Sedans",
