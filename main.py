@@ -22,9 +22,18 @@ def search_vehicle(vehicle_name):
 def find_first_empty_row():
     records = sheet.get_all_values()
     for idx, row in enumerate(records, start=1):
-        if not row or not row[0]: 
+        if not row or not row[0]:
             return idx
     return len(records) + 1
+
+def get_vehicle_price_clean(vehicle_name):
+    for vehicle in vehicle_data:
+        if vehicle.get('Nom véhicule', '').upper() == vehicle_name.upper():
+            prix = vehicle.get('Prix', '')
+            if isinstance(prix, str):
+                prix = prix.replace('$', '').replace(' ', '').strip()
+            return prix
+    return '0'
 
 def on_submit():
     vendeur = "Yazid Brown"
@@ -51,6 +60,8 @@ def on_submit():
         cout_usine = ""
         salaire_variable = ""
 
+    prix_facture = get_vehicle_price_clean(nom_vehicule)
+
     row_number = find_first_empty_row()
 
     try:
@@ -60,14 +71,13 @@ def on_submit():
         sheet.update(f'D{row_number}', [[quantite]])
         sheet.update(f'E{row_number}', [[date_vente]])
         sheet.update(f'L{row_number}', [[nom_vehicule]])
-        sheet.update(f'M{row_number}', [[""]])
+        sheet.update(f'M{row_number}', [[prix_facture]])
         sheet.update(f'N{row_number}', [[cout_usine]])
         sheet.update(f'O{row_number}', [[salaire_variable]])
         sheet.update(f'P{row_number}', [[ancien_proprio]])
         sheet.update(f'Q{row_number}', [[nouveau_proprio]])
         sheet.update(f'R{row_number}', [[telephone]])
         sheet.update(f'S{row_number}', [[immatriculation]])
-
 
         messagebox.showinfo("Succès", "✅ Vente enregistrée !")
     except Exception as e:
