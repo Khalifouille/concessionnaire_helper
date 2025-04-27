@@ -34,20 +34,23 @@ def on_search(event=None):
         min_price = float(min_price_entry.get().strip()) if min_price_entry.get().strip() else None
         max_price = float(max_price_entry.get().strip()) if max_price_entry.get().strip() else None
     except ValueError:
-        result_label.config(text="Veuillez entrer des prix valides.")
+        result_text.delete(1.0, tk.END) 
+        result_text.insert(tk.END, "Veuillez entrer des prix valides.")
         return
 
     if not name and not category and not min_price and not max_price:
-        result_label.config(text="Veuillez entrer au moins un critère de recherche.")
+        result_text.delete(1.0, tk.END) 
+        result_text.insert(tk.END, "Veuillez entrer au moins un critère de recherche.")
         return
 
     results = search_vehicle(name, category, min_price, max_price)
     
+    result_text.delete(1.0, tk.END) 
+    
     if results:
-        result_text = "\n\n".join([f"Nom : {vehicle['Nom véhicule']}\nCatégorie : {vehicle['Catégorie']}\nPrix : {vehicle['Prix']}" for vehicle in results])
-        result_label.config(text=result_text)
+        result_text.insert(tk.END, "\n\n".join([f"Nom : {vehicle['Nom véhicule']}\nCatégorie : {vehicle['Catégorie']}\nPrix : {vehicle['Prix']}\n" for vehicle in results]))
     else:
-        result_label.config(text="Aucun véhicule trouvé.")
+        result_text.insert(tk.END, "Aucun véhicule trouvé.")
 
 root = tk.Tk()
 root.title("Recherche de Véhicule")
@@ -71,7 +74,15 @@ max_price_entry.pack(pady=10)
 search_button = tk.Button(root, text="Rechercher", command=on_search)
 search_button.pack(pady=20)
 
-result_label = tk.Label(root, text="", font=('Arial', 12), justify='left')
-result_label.pack(pady=20)
+result_frame = tk.Frame(root)
+result_frame.pack(pady=20)
+
+result_text = tk.Text(result_frame, width=50, height=10, wrap=tk.WORD)
+result_text.pack(side=tk.LEFT)
+
+scrollbar = tk.Scrollbar(result_frame, command=result_text.yview)
+scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+result_text.config(yscrollcommand=scrollbar.set)
 
 root.mainloop()
