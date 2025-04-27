@@ -26,7 +26,6 @@ def on_submit():
     quantite = quantite_entry.get()
     date_vente = date_entry.get()
     nom_vehicule = vehicule_entry.get()
-
     ancien_proprio = ancien_proprio_entry.get()
     nouveau_proprio = nouveau_proprio_entry.get()
     telephone = telephone_entry.get()
@@ -37,29 +36,38 @@ def on_submit():
     if result:
         name, price = result
         cout_usine = price
-        salaire_variable = int(price.replace(" ", "").replace("$", "")) // 10 
+        try:
+            salaire_variable = int(price.replace(" ", "").replace("$", "")) // 10
+        except:
+            salaire_variable = ""
     else:
         cout_usine = ""
         salaire_variable = ""
 
     row = [
-        vendeur,
-        grade,
-        type_vente,
-        quantite,
-        date_vente,
-        nom_vehicule,
-        "", 
-        cout_usine,
-        salaire_variable,
-        ancien_proprio,
-        nouveau_proprio,
-        telephone,
-        immatriculation
+        vendeur,            # A
+        grade,              # B
+        type_vente,         # C
+        quantite,           # D
+        date_vente,         # E
+        nom_vehicule,       # F
+        "",                 # G
+        cout_usine,         # H
+        salaire_variable,   # I
+        ancien_proprio,     # J
+        nouveau_proprio,    # K
+        telephone,          # L
+        immatriculation     # M
     ]
 
-    sheet.append_row(row)
-    result_label.config(text="Vente enregistrée !")
+    while len(row) < 19:
+        row.append("")
+
+    try:
+        sheet.append_row(row, table_range="A:S")
+        result_label.config(text="✅ Vente enregistrée !")
+    except Exception as e:
+        result_label.config(text=f"❌ Erreur: {str(e)}")
 
 root = tk.Tk()
 root.title("Vente de véhicule")
