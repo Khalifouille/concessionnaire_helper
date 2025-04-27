@@ -120,6 +120,14 @@ def on_submit():
 
     if success:
         messagebox.showinfo("Succès", "✅ Vente envoyée sur Discord !")
+        
+        vehicule_entry.delete(0, tk.END)
+        type_vente_var.set("")
+        quantite_entry.delete(0, tk.END)
+        ancien_proprio_entry.delete(0, tk.END)
+        nouveau_proprio_entry.delete(0, tk.END)
+        telephone_entry.delete(0, tk.END)
+        immatriculation_entry.delete(0, tk.END)   
     else:
         messagebox.showerror("Erreur", "❌ Erreur d'envoi au webhook.")
 
