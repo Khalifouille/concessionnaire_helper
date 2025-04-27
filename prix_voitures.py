@@ -10,7 +10,7 @@ def search_vehicle(vehicle_name):
             return vehicle['Nom véhicule'], vehicle['Catégorie'], vehicle['Prix']
     return None
 
-def on_search():
+def on_search(event=None): 
     vehicle_name = entry.get().strip() 
     if not vehicle_name:  
         result_label.config(text="Veuillez entrer un nom de véhicule.")
@@ -32,6 +32,8 @@ label.pack(pady=10)
 
 entry = tk.Entry(root, width=30)
 entry.pack(pady=10)
+
+entry.bind("<Return>", on_search)
 
 search_button = tk.Button(root, text="Rechercher", command=on_search)
 search_button.pack(pady=20)
