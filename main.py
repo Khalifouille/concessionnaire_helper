@@ -172,4 +172,6 @@ immatriculation_entry.pack()
 submit_button = tk.Button(root, text="Envoyer la vente", command=on_submit)
 submit_button.pack(pady=10)
 
+root.bind("<Return>", lambda event: on_submit())
+
 root.mainloop()
