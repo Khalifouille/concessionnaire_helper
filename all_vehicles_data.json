@@ -22,7 +22,7 @@
     {
         "Catégorie": "Compact",
         "Nom véhicule": "ASBO",
-        "Prix": "$"
+        "Prix": "1 050 $"
     },
     {
         "Catégorie": "Compact",
@@ -57,7 +57,7 @@
     {
         "Catégorie": "Compact",
         "Nom véhicule": "WEEVIL",
-        "Prix": "$"
+        "Prix": "5 250 $"
     },
     {
         "Catégorie": "Compact",
@@ -92,7 +92,7 @@
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "ZION",
-        "Prix": "$"
+        "Prix": "23 750 $"
     },
     {
         "Catégorie": "Coupés",
@@ -127,12 +127,12 @@
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "FELON GT",
-        "Prix": "$"
+        "Prix": "44 375 $"
     },
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "EXEMPLAR",
-        "Prix": "$"
+        "Prix": "48 125 $"
     },
     {
         "Catégorie": "Coupés",
@@ -147,7 +147,7 @@
     {
         "Catégorie": "Coupés",
         "Nom véhicule": "ORACLE XSLE",
-        "Prix": "$"
+        "Prix": "70 000$"
     },
     {
         "Catégorie": "Coupés",
@@ -222,7 +222,7 @@
     {
         "Catégorie": "Sedans",
         "Nom véhicule": "WARRENER",
-        "Prix": "$"
+        "Prix": "2 125 $"
     },
     {
         "Catégorie": "Sedans",
@@ -232,7 +232,7 @@
     {
         "Catégorie": "Sedans",
         "Nom véhicule": "GLENDALE",
-        "Prix": "$"
+        "Prix": "3 125 $"
     },
     {
         "Catégorie": "Sedans",
@@ -252,7 +252,7 @@
     {
         "Catégorie": "Sedans",
         "Nom véhicule": "GLENDALE CUSTOM",
-        "Prix": "$"
+        "Prix": "10 625 $"
     },
     {
         "Catégorie": "Sedans",
@@ -332,7 +332,7 @@
     {
         "Catégorie": "Sportive",
         "Nom véhicule": "BLISTA COMPACT",
-        "Prix": "$"
+        "Prix": "1 000$"
     },
     {
         "Catégorie": "Sportive",
@@ -362,7 +362,7 @@
     {
         "Catégorie": "Sportive",
         "Nom véhicule": "ALPHA",
-        "Prix": "$"
+        "Prix": "18 750 $"
     },
     {
         "Catégorie": "Sportive",
@@ -402,7 +402,7 @@
     {
         "Catégorie": "Sportive",
         "Nom véhicule": "FLASH GT",
-        "Prix": "$"
+        "Prix": "35 000 $"
     },
     {
         "Catégorie": "Sportive",
@@ -422,7 +422,7 @@
     {
         "Catégorie": "Sportive",
         "Nom véhicule": "CALICO GTF",
-        "Prix": "$"
+        "Prix": "38 750 $"
     },
     {
         "Catégorie": "Sportive",
