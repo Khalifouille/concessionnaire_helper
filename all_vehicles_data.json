@@ -1,0 +1,2862 @@
+[
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "BLISTA",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "PRAIRIE",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "RHAPSODY",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "DILETTANTE",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "ASBO",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "CLUB",
+        "Prix": "1 060 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "BRIOSO R/A",
+        "Prix": "1 250 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "ISSI",
+        "Prix": "1 375 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "KANJO",
+        "Prix": "1 375 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "ISSI CLASSIC",
+        "Prix": "1 625 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "BRIOSO 300",
+        "Prix": "4 375 $"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "WEEVIL",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Compact",
+        "Nom véhicule": "BRIOSO 300 LARGE",
+        "Prix": "6 500$"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "POSTLUDE",
+        "Prix": "6 875 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "KANJO SJ",
+        "Prix": "8 125 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "PREVION",
+        "Prix": "20 625 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "SENTINEL XS",
+        "Prix": "22 500 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "ORACLE XS",
+        "Prix": "22 500 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "ZION",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "ZION CABRIO",
+        "Prix": "26 250 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "SENTINEL SPORT",
+        "Prix": "26 250 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "FR 36",
+        "Prix": "28 750 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "F620",
+        "Prix": "37 500 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "JACKAL",
+        "Prix": "37 500 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "FELON",
+        "Prix": "40 625 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "FELON GT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "EXEMPLAR",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "COGCABRIO",
+        "Prix": "0 000 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "ORACLE",
+        "Prix": "67 500 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "ORACLE XSLE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "WINDSOR",
+        "Prix": "93 750 $"
+    },
+    {
+        "Catégorie": "Coupés",
+        "Nom véhicule": "WINDSOR DROP",
+        "Prix": "100 000 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "EMPEROR 2",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "ASEA",
+        "Prix": "1 125 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "REGINA",
+        "Prix": "1 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "PREMIER",
+        "Prix": "1 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "CORBILLARD ROMERO",
+        "Prix": "1 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "EMPEROR",
+        "Prix": "1 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "INGOT",
+        "Prix": "1 750 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "ASTEROPE",
+        "Prix": "1 750 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "STRATUM",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "STANIER",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "WASHINGTON",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "INTRUDER",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "WARRENER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "SURGE",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "GLENDALE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "FUGITIVE",
+        "Prix": "6 875 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "ASTEROPE S",
+        "Prix": "6 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "ADMIRAL",
+        "Prix": "10 000 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "GLENDALE CUSTOM",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "PRIMO",
+        "Prix": "13 300 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "PRIMO CUSTOM",
+        "Prix": "15 625 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "ORACLE V12 SLINE",
+        "Prix": "16 875 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "ORACLE V12 BREAK",
+        "Prix": "16 875$"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "ORACLE V12",
+        "Prix": "(INVENDABLE)"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "TAILGATER",
+        "Prix": "18 750 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "STAFFORD",
+        "Prix": "25 000 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "SERAPH V10",
+        "Prix": "33 750 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "PRIMO SPORT",
+        "Prix": "34 375 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "SCHARMANN",
+        "Prix": "60 625 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "SUPER DIAMOND",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "COGNOSCENTI 55",
+        "Prix": "70 000 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "RHINEHART",
+        "Prix": "100 000 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "TAILGATER S",
+        "Prix": "112 500 $"
+    },
+    {
+        "Catégorie": "Sedans",
+        "Nom véhicule": "DEITY",
+        "Prix": "150 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BLISTA COMPACT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BLISTA GO GO MONKEY",
+        "Prix": "1 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "FUSILLADE",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "FUTO",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "PENUMBRA",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BUFFALO",
+        "Prix": "18 750$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ALPHA",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "PENUMBRA FF",
+        "Prix": "18 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "FUTO GTX",
+        "Prix": "22 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SCHWARTZER",
+        "Prix": "18 750$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BUFFALO S",
+        "Prix": "30 000$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BUFFALO SPUNK",
+        "Prix": "31 250$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BANSHEE",
+        "Prix": "26 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "GB200",
+        "Prix": "26 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "FLASH GT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "REMUS",
+        "Prix": "35 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SCHAFTER",
+        "Prix": "35 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "HOTRING SABRE",
+        "Prix": "35 625 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "CALICO GTF",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ZR350",
+        "Prix": "38 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ARIANT",
+        "Prix": "40 625 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SPRITZER DTM",
+        "Prix": "40 625 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "RAPID GT",
+        "Prix": "41 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SERAPH",
+        "Prix": "43 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SULTAN",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "RT3000",
+        "Prix": "43 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "RAPID GT (DECAPPOTABLE)",
+        "Prix": "45 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "CLUB XR",
+        "Prix": "46 410$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "NASCAR CAR",
+        "Prix": "46 875 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "EUROS",
+        "Prix": "50 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "FELTZER",
+        "Prix": "50 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "HOTRING EVERON",
+        "Prix": "50 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ISSI SPORT",
+        "Prix": "50 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "JESTER CLASSIQUE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SUGOI",
+        "Prix": "50 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "CYPHER CT",
+        "Prix": "52 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "TAMPA DRIFT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "300R",
+        "Prix": "56 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COQUETTE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "JESTER RR",
+        "Prix": "56 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SENTINEL CLASSIQUE",
+        "Prix": "56 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SULTAN CLASSIQUE",
+        "Prix": "56 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SPRITZER",
+        "Prix": "60 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SERAPH3",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "FURORE GT",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "OMNIS",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SURANO",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SCHAFTER V12",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "IMORGON",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COMET 62 500 $",
+        "Prix": "COMET 62 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ASTEROPE RS",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SCHAFTER LWB",
+        "Prix": "65 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SULTAN CLASSIQUE CUSTOM",
+        "Prix": "65 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SULTAN RS CLASSIQUE",
+        "Prix": "65 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ROXANNE",
+        "Prix": "65 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "CARBONIZZARE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "RAIDEN",
+        "Prix": "68 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "TROPOS RALLYE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "LA COUREUSE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COMET SAFARI",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ELEGY RETRO CUSTOM",
+        "Prix": "75 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "KURUMA",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "PANTHERE",
+        "Prix": "75 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "MASSACRO",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "VERLIERER",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "MOGUL RS",
+        "Prix": "75 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "VIGERO ZX CABRIO",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BUFFALO HELLOUND",
+        "Prix": "77 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ELEGY RH8",
+        "Prix": "81 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "LYNX",
+        "Prix": "81 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BUFFALO EVX",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "KHAMELION",
+        "Prix": "87 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "RAIDEN Z",
+        "Prix": "87 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "JESTER",
+        "Prix": "87 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "VECTRE",
+        "Prix": "87 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SUNRISE",
+        "Prix": ""
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "STREITER",
+        "Prix": "87 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ELEGY RH7",
+        "Prix": "88 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "STREITER SLINE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SPECTER",
+        "Prix": "90 625 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "9F",
+        "Prix": "93 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COMET RETRO CUSTOM",
+        "Prix": "93 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "JESTER RE-RR",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SEVEN-70",
+        "Prix": "93 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "9F CABRIO",
+        "Prix": "100 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SPECTER CUSTOM",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "PARAGON R",
+        "Prix": "100 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "CYPHER",
+        "Prix": "112 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SCHARTZER S",
+        "Prix": "112 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "HACHURA",
+        "Prix": "122 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "NEXUS",
+        "Prix": "122 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SCHLAGEN GT",
+        "Prix": "122 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "CINQUEMILA",
+        "Prix": "125 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "8F DRAFTER",
+        "Prix": "125 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "KOMODA",
+        "Prix": "125 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "BESTIA GTS",
+        "Prix": "131 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "PARIAH",
+        "Prix": "135 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "V-STR",
+        "Prix": "137 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ARGENTO",
+        "Prix": "135 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COMET SR",
+        "Prix": "150 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "JUGULAR",
+        "Prix": "156 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SAPPHIRE",
+        "Prix": "156 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COMET S2",
+        "Prix": "162 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COMET S2 CABRIO",
+        "Prix": "168 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "GROWLER",
+        "Prix": "168 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "LOCUST",
+        "Prix": "168 750 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "NEON",
+        "Prix": "175 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "RUSTON",
+        "Prix": "175 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SUPER-GTS",
+        "Prix": "181 250 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SOLACE",
+        "Prix": "182 500$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "COQUETTE D10",
+        "Prix": "187 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "NEO",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ITALI GTO STINGER GT",
+        "Prix": "202 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "10F",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SUPER DIAMOND LIMOUSIN",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "10F LARGE",
+        "Prix": "225 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "OMNIS E-GT",
+        "Prix": "250 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "NEON CROSS TURISMO",
+        "Prix": "312 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ITALI RSX",
+        "Prix": "337 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SM722",
+        "Prix": "350 000 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SCHLAGEN STR",
+        "Prix": "387 500 $"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "ITALI GTO",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "DEVESTE EIGHT",
+        "Prix": "625 000$"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "JESTER COURSE)",
+        "Prix": "INVENDABLE"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "MASSACRO (COURSE)",
+        "Prix": "INVENDABLE"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "SULTAN RSX",
+        "Prix": "BLE)"
+    },
+    {
+        "Catégorie": "Sportive",
+        "Nom véhicule": "PARAGON R",
+        "Prix": "(blindée) INVENDABLE"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "BANSHEE 900R",
+        "Prix": "75 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "BULLET",
+        "Prix": "87 500$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "SULTAN RS",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "INFERNUS CLASSIQUE",
+        "Prix": "112 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ETR1",
+        "Prix": "130 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ITALI GTB",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "GP1",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "KRIEGER",
+        "Prix": "181 250 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "CHAMPION",
+        "Prix": "187 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ENTITY XF",
+        "Prix": "187 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "FURIA",
+        "Prix": "200 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "SC1",
+        "Prix": "212 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "EMERUS",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "CYCLONE",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "FMJ",
+        "Prix": "256 250 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "RE-7B",
+        "Prix": "262 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "AUDACE",
+        "Prix": "268 750$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "CORSITA",
+        "Prix": "275 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "PENETRATOR",
+        "Prix": "275 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "NERO",
+        "Prix": "312 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TAIPAN",
+        "Prix": "287 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "CHEETAH",
+        "Prix": "312 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ENTITY XXR",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "NERO CUSTOM",
+        "Prix": "312 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "811",
+        "Prix": "312 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TURISMO OMAGGIO",
+        "Prix": "337 500$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "OSIRIS",
+        "Prix": "343750 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ZENO",
+        "Prix": "343 750 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "S80RR",
+        "Prix": "350 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ENTITY MT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "X80 PROTO",
+        "Prix": "375 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "XA-21",
+        "Prix": "375 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "REAPER",
+        "Prix": "400 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "LM87",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TIGON",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TURISMO R",
+        "Prix": "437 500$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TYRUS",
+        "Prix": "437 5000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "VAGNER",
+        "Prix": "437 500 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "VIRTUE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "VISIONE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TEMPESTA FR-WORKS",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "T20",
+        "Prix": "00 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "SEVERO",
+        "Prix": "00 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TEZERACT",
+        "Prix": "500 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TORERO XO",
+        "Prix": "00 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TYRANT",
+        "Prix": "00 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ZORRUSSO",
+        "Prix": "500 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "IGNUS",
+        "Prix": "506 250 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "TEMPESTA",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "THRAX",
+        "Prix": "525 000 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "AUTARCH",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "VACCA",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ZENTORNO",
+        "Prix": "593 750 $"
+    },
+    {
+        "Catégorie": "Super Sportive",
+        "Nom véhicule": "ADDER",
+        "Prix": "625 000 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "SEMINOLE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "RADIUS",
+        "Prix": "4 375 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "MESA",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "SERRANO",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "BEEJAY XL",
+        "Prix": "5 625 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "HABANERO",
+        "Prix": "6 250 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "LANDSTALKER",
+        "Prix": "6 250 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "GRANGER",
+        "Prix": "6 250 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "SEMINOLE FRONTIER",
+        "Prix": "7 500 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "GRESLEY",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "CALVACADE",
+        "Prix": "12 500 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "CALVACADE 2",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "LANDSTALKER XL",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "VIVANITE",
+        "Prix": "15 500$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "FQ 2",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "GRANGER 3600LX",
+        "Prix": "15 625 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "HUNTLEY S",
+        "Prix": "17 500 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "PATRIOT",
+        "Prix": "15 500 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "XLS",
+        "Prix": "18 750 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "DUBSTA 2",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "DUBSTA",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "ALEUTIAN",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "BALLER",
+        "Prix": "33 750 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "ROCOTO",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "BALLER 2",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "BALLER LE",
+        "Prix": "48 750$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "SCOUT'20",
+        "Prix": "51 250$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "GRESLEY HELLOUND",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "ISSI RALLY",
+        "Prix": "52 500 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "BALLER LE LWB",
+        "Prix": "57 500 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "REBLA GTS",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "CONTENDER",
+        "Prix": "81 250 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "NOVAK81 250",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "BALLER ST",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "STARLIGHT",
+        "Prix": "90 000 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "BALLER ST-D",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "I-WAGEN",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "ASTRON",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "JUBILEE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "DUBSTA 6X6",
+        "Prix": "107 500 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "TOROS 156 250 $",
+        "Prix": "TOROS 156 250 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "DUBSTA 2022",
+        "Prix": "156 250 $"
+    },
+    {
+        "Catégorie": "SUV",
+        "Nom véhicule": "XLS BLINDER",
+        "Prix": "(Invendable)"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "RAT-LOADER",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "LURCHER",
+        "Prix": "1 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DUKES",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VOODOO",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "PICADOR",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VIGERO",
+        "Prix": "2 812 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "EUDORA",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "BUCCANEER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "BEATER DUKES",
+        "Prix": "3 125$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VAMOS",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "MOONBEAM",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "SABRE TURBO",
+        "Prix": "3 125$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VIGERO RUMBLER",
+        "Prix": "3 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "RAT-TRUCK",
+        "Prix": "3 750$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "CHINO",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VIRGO",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "STALLION",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "TAMPA",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VOODOO CUSTOM",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "FACTION",
+        "Prix": "4 375$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VIRGO CLASSIQUE CUSTOM",
+        "Prix": "4 375 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "CHINO CUSTOM",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "BLADE",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "BUCCANEER CUSTOM",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "GAUNTLET",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "RUINER",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "YOSEMITE",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "MOONBEAM CUSTOM",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "IMPALER",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "PEYOTE GASSER",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "PHOENIX",
+        "Prix": "5000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VIRGO CLASSIQUE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "IMPALER LX",
+        "Prix": "5 625 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "SABRE TURBO CUSTOM",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "TAHOMA",
+        "Prix": "6 250 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "FACTION CUSTOM",
+        "Prix": "6 250$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "CLIQUE DELUXE",
+        "Prix": "6 875 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "SLAMVAN",
+        "Prix": "6 875 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "SLAMVAN DU LOST",
+        "Prix": "7 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "YOSEMITE RANCHER",
+        "Prix": "00 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "TULIP",
+        "Prix": "6000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "YOSEMITE DRIFT",
+        "Prix": "7 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "TULIP M-100",
+        "Prix": "8 125 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DOMINATOR",
+        "Prix": "8 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "CLIQUE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "SLAMVAN CUSTOM",
+        "Prix": "8 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DEVIANT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "NIGHTSHADE",
+        "Prix": "10 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "GAUNTLET CLASSIQUE",
+        "Prix": "10 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "TAHOMA GT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "BROADWAY",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DOMINATOR ASP",
+        "Prix": "13 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "FACTION CUSTOM DONK",
+        "Prix": "13 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "GAUNTLET CLASSIQUE CUSTOM",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VIGERO RUMBLER DRAG",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "HERMES",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "GAUNTLET HELLFIRE",
+        "Prix": "18 750 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "HOTKNIFE",
+        "Prix": "25 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "HUSTLER",
+        "Prix": "25 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "ELLIE",
+        "Prix": "24 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "SLAMTRUCK",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "TAMPA R",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "GREENWOOD",
+        "Prix": "40 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "RUINER ZZ-8",
+        "Prix": "46 875 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DOMINATOR GTX",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DOMINATOR GTT",
+        "Prix": "52 500$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "COQUETTE BLACKFIN",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "BUFFALO STX",
+        "Prix": "78 125 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DOMINATOR GT CABRIO",
+        "Prix": "81 250 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "VIGERO ZX",
+        "Prix": "90 000 $"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "GAUNTLET REDWOOD",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "STALLION BURGER SHOT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Muscles",
+        "Nom véhicule": "DOMINATOR PISSWASSER",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TORNADO 3",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TORNADO 4",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TORNADO 1",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TORNADO CUSTOM",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TORNADO 2",
+        "Prix": "4 375 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "MANANA 1",
+        "Prix": "000 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "MANANA CUSTOM",
+        "Prix": "5 625 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "PEYOTE 1",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "PEYOTE CUSTOM",
+        "Prix": "6 875$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "MICHELLI GT",
+        "Prix": "10 625 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "PIGALLE",
+        "Prix": "13 750 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "DYNSATY",
+        "Prix": "33 750 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "BRIGHAM",
+        "Prix": "35 000 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "KOMODA GT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "NEBULA TURBO",
+        "Prix": "37 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "ROOSEVELT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "FAGALOA",
+        "Prix": "40 000 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "WEEVIL CUSTOM",
+        "Prix": "47 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "ROOSEVELT VALOR",
+        "Prix": "50 000 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "MONROE",
+        "Prix": "51 875 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "ZION CLASSIC",
+        "Prix": "500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "ARDENT",
+        "Prix": "60 000 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "RAPID GT CLASSIQUE",
+        "Prix": "62 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "ZTYPE",
+        "Prix": "500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "STINGER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "STINGER GT",
+        "Prix": "71 250 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TURISMO 300 GT",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "GT500",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "STIRLING GT",
+        "Prix": "76 250$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "SANCY B4",
+        "Prix": "77 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "CASCO",
+        "Prix": "81 250 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "JB700 W",
+        "Prix": "85 000$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "CHEETAH CLASSIC",
+        "Prix": "87 500$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "190Z",
+        "Prix": "87 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "COQUETTE CLASSIC",
+        "Prix": "90 000 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "MAMBA",
+        "Prix": "93 750 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "STOMBERG",
+        "Prix": "97 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "COMET CLASSIC",
+        "Prix": "97 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "SWINGER",
+        "Prix": "106 250 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "INFERNUS CLASSIC",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TORERO",
+        "Prix": "131 250 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TURISMO CLASSIC",
+        "Prix": "131 250 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "VISERIS",
+        "Prix": "162 500 $"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "DELUXO",
+        "Prix": "(invendable)"
+    },
+    {
+        "Catégorie": "Sportive Classique",
+        "Nom véhicule": "TOREADOR",
+        "Prix": "(Invendable)"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "BODHI",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "REBEL",
+        "Prix": "2 200 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "KAHALARI",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "RANCHER XL",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "DUNE BUGGY",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "REBEL ROUILLE",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "RANCHER XL2",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "SADLER",
+        "Prix": "3 450 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "BF INJECTION",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "SANDKING SWB",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "BIFTA",
+        "Prix": "4 375 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "L35",
+        "Prix": "000$"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "BOOR",
+        "Prix": "5 625 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "INDIANA",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "BRAWLER",
+        "Prix": "6 250 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "HELLION",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "SANDKING DUALLY",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "WALTO L35",
+        "Prix": "8 600 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "RIATA",
+        "Prix": "8 750 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "EVERON",
+        "Prix": "10 000$"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "TROPHY TRUCK",
+        "Prix": "10 625 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "SANDKING",
+        "Prix": "12 500 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "BUGGY RAID",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "MONSTROCITI",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "MESA",
+        "Prix": "15 625 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "FREECRAWLER",
+        "Prix": "18 750 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "SANDSTORM",
+        "Prix": "18 750 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "SANDSTORM XL",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "CONTENDER CUSTOM",
+        "Prix": "25 000 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "DRAUGUR",
+        "Prix": "31 250 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "CONTENDER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "4X4 CARACARA",
+        "Prix": "50 000$"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "BISON HF",
+        "Prix": "50 000 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "KAMACHO",
+        "Prix": "53 750 $"
+    },
+    {
+        "Catégorie": "Tout Terrain",
+        "Nom véhicule": "INVENDABLE",
+        "Prix": "INVENDABLE"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BMX",
+        "Prix": "250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "CRUISER",
+        "Prix": "375 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "ENDUREX",
+        "Prix": "375 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "FIXTER",
+        "Prix": ""
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SCORCHER",
+        "Prix": "375 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "TRI-CYCLES",
+        "Prix": "750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "WHIPPET",
+        "Prix": "375 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "FAGGIO",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "FAGGIO SPORT",
+        "Prix": "1 125 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "FAGGIO MOD",
+        "Prix": "1 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BLAZER",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BLAZER GARDE-CÔTE",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "INDUCTOR",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "INDUCTOR JUNK",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "HOT ROD BLAZER",
+        "Prix": "3 125$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "VERUS",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "PCJ 600",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "RAT BIKE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "VADER",
+        "Prix": "5 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "RUFFIAN",
+        "Prix": "6 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SANCHEZ (COULEUR)",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SANCHEZ",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SOVEREIGN",
+        "Prix": "8 125 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "ENDURO",
+        "Prix": "9 375 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "ESSKEY",
+        "Prix": "10 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "HEXER",
+        "Prix": "10 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BAGGER",
+        "Prix": "10 675 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "AKUMA",
+        "Prix": "10 937 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "INNOVATION",
+        "Prix": "11 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "MANCHEZ",
+        "Prix": "11 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "NEMESIS",
+        "Prix": "11 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "ZOMBIE BOBBER",
+        "Prix": "11 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BLAZER STREET",
+        "Prix": "11 875 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "ZOMBIE CHOPPER",
+        "Prix": "11 875$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "MANCHEZ SCOUT",
+        "Prix": "11 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "MANCHEZ SCOUT C",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "WOFSBANE",
+        "Prix": "13 750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "AVARUS",
+        "Prix": "13 750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "DEAMON",
+        "Prix": "13 750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "DEAMON 2",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BATI 701",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "GARGOYLE",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "LECTRO",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SPIRIT",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "KUNOICHI",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "POWERSURGE",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "CARBON RS",
+        "Prix": "15 000$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BATI 801",
+        "Prix": "15 625 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "DEFILER",
+        "Prix": "15 625 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "NIGHTBLADE",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "DOUBLE-T",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BATI 801RR",
+        "Prix": "16 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SANCTUS",
+        "Prix": "16 875 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "FCR 1000",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "REEVER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "CLIFFHANGER",
+        "Prix": "18 750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "FCR 1000 CUSTOM",
+        "Prix": "20 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "VINDICATOR",
+        "Prix": "21 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "HAKUCHOU",
+        "Prix": "21 875 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "THRUST",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "VORTEX",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BLACKWATER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "LP BAGGER",
+        "Prix": "22 500 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BF400",
+        "Prix": "23 750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "KUSA",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "BATI 901",
+        "Prix": "25 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "DIABOLUS",
+        "Prix": "25 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "DIABOLUS CUSTOM",
+        "Prix": "28 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "STRYDER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "ACKNOD SOFTAIL",
+        "Prix": "22 000 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "CHIMERA",
+        "Prix": "28 125 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "HAKUCHOU DRAG",
+        "Prix": "31 250 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SHINOBI",
+        "Prix": "43 750 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "RAMPANT ROCKET",
+        "Prix": "37 500 $"
+    },
+    {
+        "Catégorie": "Moto-Vélo",
+        "Nom véhicule": "SHOTARO",
+        "Prix": "INVENDABLE"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "JOURNEY ROUILLE",
+        "Prix": "1 250 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "SURFER ROUILLE",
+        "Prix": "1 250 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "YOUGA",
+        "Prix": "1 250 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "JOURNEY",
+        "Prix": "1 250 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "YOUGA CLASSIQUE",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "SURFER",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BURRITO",
+        "Prix": "1 875"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "MINI VAN",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "PARADISE",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "SPEEDO",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "VAN (Clown)",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "SPEEDO (CUSTOM)",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "SURFER (Custom)",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BURRITO (GANG)",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BOBCAT XL",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BISON CLASSIQUE",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "YOUGA (4X4)",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BURRITO \"GANG\" CUSTOM",
+        "Prix": "3 000 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BOXVILLE (Chantier)",
+        "Prix": "3 750$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "taco van",
+        "Prix": "3 750$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "CAMPER",
+        "Prix": "3 750$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "MINI VAN CUSTOM",
+        "Prix": "4 375 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "SPEEDO (EXPRESS)",
+        "Prix": "3 250 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "RUMPO CUSTOM",
+        "Prix": "10 000 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BURRITO (Entreprise)",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BISON (CHANTIER)",
+        "Prix": "3 125 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BURRITO (BUGSTARS)",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BURRITO (CHANTIER)",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BURRITO (Enneigée)",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "TRACTEUR ANCIEN",
+        "Prix": "1 000 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "FIELDMASTER",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "FIELDMASTER",
+        "Prix": "1 875 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "PONY (GO POSTAL)",
+        "Prix": "2 000 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "PONY (ENTREPRISE)",
+        "Prix": "2 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BISON (ENTREPRISE)",
+        "Prix": "2 850 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "RUMPO (WEZEL NEWS)",
+        "Prix": "2 500$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "RUMPO (DELUDAMOL)",
+        "Prix": "3 125$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BOXVILLE (Gopostal)",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BOXVILLE (Humane)",
+        "Prix": "3 750 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BOXVILLE (POST OP)",
+        "Prix": "3 750$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "MULE (ENTREPRISE)",
+        "Prix": "12 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "DEPANNEUSE",
+        "Prix": "4 375 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "CERBERUS 200",
+        "Prix": "9 375 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "HAULER",
+        "Prix": "9 375 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "PHANTOM",
+        "Prix": "9 375 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "PACKER",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "PHANTOM (CUSTOM)",
+        "Prix": "9 375$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "CERBERUS 300",
+        "Prix": "9 375$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "BENSON (ENTREPRISE) 11 250",
+        "Prix": "$"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "MULE (CUSTOM)",
+        "Prix": "12 500 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "FLATBED",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "MULE",
+        "Prix": "17 200 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "POUNDER CUSTOM",
+        "Prix": "15 000 $"
+    },
+    {
+        "Catégorie": "Vans",
+        "Nom véhicule": "POUNDER",
+        "Prix": "18 750$"
+    }
+]
