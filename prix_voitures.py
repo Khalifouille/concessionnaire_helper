@@ -11,7 +11,11 @@ def search_vehicle(vehicle_name):
     return None
 
 def on_search():
-    vehicle_name = entry.get()
+    vehicle_name = entry.get().strip() 
+    if not vehicle_name:  
+        result_label.config(text="Veuillez entrer un nom de véhicule.")
+        return
+
     result = search_vehicle(vehicle_name)
     
     if result:
