@@ -1,44 +1,108 @@
 import tkinter as tk
+from tkinter import ttk
 import json
+import datetime
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
 with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
     vehicle_data = json.load(f)
 
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+creds = ServiceAccountCredentials.from_json_keyfile_name('api_key.json', scope)
+client = gspread.authorize(creds)
+sheet = client.open("Copie de Staff LS MOTOR").worksheet("Ventes")
+
 def search_vehicle(vehicle_name):
     for vehicle in vehicle_data:
         if vehicle_name.lower() in vehicle['Nom véhicule'].lower():
-            return vehicle['Nom véhicule'], vehicle['Catégorie'], vehicle['Prix']
+            return vehicle['Nom véhicule'], vehicle['Prix']
     return None
 
-def on_search(event=None): 
-    vehicle_name = entry.get().strip() 
-    if not vehicle_name:  
-        result_label.config(text="Veuillez entrer un nom de véhicule.")
-        return
+def on_submit():
+    vendeur = "Yazid Brown"
+    grade = "Apprenti"
+    type_vente = type_vente_var.get()
+    quantite = quantite_entry.get()
+    date_vente = date_entry.get()
+    nom_vehicule = vehicule_entry.get()
 
-    result = search_vehicle(vehicle_name)
-    
+    ancien_proprio = ancien_proprio_entry.get()
+    nouveau_proprio = nouveau_proprio_entry.get()
+    telephone = telephone_entry.get()
+    immatriculation = immatriculation_entry.get()
+
+    result = search_vehicle(nom_vehicule)
+
     if result:
-        name, category, price = result
-        result_label.config(text=f"Nom : {name}\nCatégorie : {category}\nPrix : {price}")
+        name, price = result
+        cout_usine = price
+        salaire_variable = int(price.replace(" ", "").replace("$", "")) // 10 
     else:
-        result_label.config(text="Non trouvée")
+        cout_usine = ""
+        salaire_variable = ""
+
+    row = [
+        vendeur,
+        grade,
+        type_vente,
+        quantite,
+        date_vente,
+        nom_vehicule,
+        "", 
+        cout_usine,
+        salaire_variable,
+        ancien_proprio,
+        nouveau_proprio,
+        telephone,
+        immatriculation
+    ]
+
+    sheet.append_row(row)
+    result_label.config(text="Vente enregistrée !")
 
 root = tk.Tk()
-root.title("Recherche de Véhicule")
+root.title("Vente de véhicule")
 
-label = tk.Label(root, text="Entrez le nom du véhicule :")
-label.pack(pady=10)
+tk.Label(root, text="Nom du véhicule:").pack()
+vehicule_entry = tk.Entry(root)
+vehicule_entry.pack()
 
-entry = tk.Entry(root, width=30)
-entry.pack(pady=10)
+tk.Label(root, text="Type de vente:").pack()
+type_vente_var = tk.StringVar()
+type_vente_menu = ttk.Combobox(root, textvariable=type_vente_var)
+type_vente_menu['values'] = ("Carte Grise", "Double des clés", "Vente véhicule")
+type_vente_menu.pack()
 
-entry.bind("<Return>", on_search)
+tk.Label(root, text="Quantité:").pack()
+quantite_entry = tk.Entry(root)
+quantite_entry.pack()
 
-search_button = tk.Button(root, text="Rechercher", command=on_search)
-search_button.pack(pady=20)
+tk.Label(root, text="Date (JJ/MM/AAAA):").pack()
+date_entry = tk.Entry(root)
+date_entry.insert(0, datetime.datetime.now().strftime("%d/%m/%Y"))
+date_entry.pack()
 
-result_label = tk.Label(root, text="", font=('Arial', 12), justify='left')
-result_label.pack(pady=20)
+tk.Label(root, text="Ancien Propriétaire:").pack()
+ancien_proprio_entry = tk.Entry(root)
+ancien_proprio_entry.pack()
+
+tk.Label(root, text="Nouveau Propriétaire:").pack()
+nouveau_proprio_entry = tk.Entry(root)
+nouveau_proprio_entry.pack()
+
+tk.Label(root, text="Téléphone:").pack()
+telephone_entry = tk.Entry(root)
+telephone_entry.pack()
+
+tk.Label(root, text="Immatriculation:").pack()
+immatriculation_entry = tk.Entry(root)
+immatriculation_entry.pack()
+
+submit_button = tk.Button(root, text="Enregistrer la vente", command=on_submit)
+submit_button.pack(pady=10)
+
+result_label = tk.Label(root, text="")
+result_label.pack()
 
 root.mainloop()
