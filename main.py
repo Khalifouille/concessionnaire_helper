@@ -3,7 +3,12 @@ from tkinter import ttk, messagebox
 import json
 import datetime
 import requests
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
     vehicle_data = json.load(f)
