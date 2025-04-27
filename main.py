@@ -83,7 +83,7 @@ vehicule_entry.pack()
 tk.Label(root, text="Type de vente:").pack()
 type_vente_var = tk.StringVar()
 type_vente_menu = ttk.Combobox(root, textvariable=type_vente_var)
-type_vente_menu['values'] = ("Carte Grise", "Double des clés", "Vente véhicule")
+type_vente_menu['values'] = ("Carte grise", "Double des clés", "Vente véhicule")
 type_vente_menu.pack()
 
 tk.Label(root, text="Quantité:").pack()
