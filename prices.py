@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import ttk
 import json
 
 with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
@@ -12,11 +13,10 @@ def search_vehicle(name=None, category=None, min_price=None, max_price=None):
         
         if category and vehicle['Catégorie'].lower() != category.lower():
             continue
-        
         try:
             price = float(vehicle['Prix'].replace('$', '').replace(' ', '').strip())
         except ValueError:
-            price = 0 
+            price = 0  
 
         if min_price and price < min_price:
             continue
@@ -28,13 +28,13 @@ def search_vehicle(name=None, category=None, min_price=None, max_price=None):
 
 def on_search(event=None): 
     name = name_entry.get().strip()
-    category = category_entry.get().strip()
+    category = category_combobox.get().strip()
 
     try:
         min_price = float(min_price_entry.get().strip()) if min_price_entry.get().strip() else None
         max_price = float(max_price_entry.get().strip()) if max_price_entry.get().strip() else None
     except ValueError:
-        result_text.delete(1.0, tk.END) 
+        result_text.delete(1.0, tk.END)
         result_text.insert(tk.END, "Veuillez entrer des prix valides.")
         return
 
@@ -43,9 +43,10 @@ def on_search(event=None):
         result_text.insert(tk.END, "Veuillez entrer au moins un critère de recherche.")
         return
 
+
     results = search_vehicle(name, category, min_price, max_price)
     
-    result_text.delete(1.0, tk.END) 
+    result_text.delete(1.0, tk.END)
     
     if results:
         result_text.insert(tk.END, "\n\n".join([f"Nom : {vehicle['Nom véhicule']}\nCatégorie : {vehicle['Catégorie']}\nPrix : {vehicle['Prix']}\n" for vehicle in results]))
@@ -60,8 +61,11 @@ name_entry = tk.Entry(root, width=30)
 name_entry.pack(pady=10)
 
 tk.Label(root, text="Catégorie de véhicule :").pack(pady=10)
-category_entry = tk.Entry(root, width=30)
-category_entry.pack(pady=10)
+
+categories = sorted(set(vehicle['Catégorie'] for vehicle in vehicle_data))
+
+category_combobox = ttk.Combobox(root, values=categories, width=30)
+category_combobox.pack(pady=10)
 
 tk.Label(root, text="Prix minimum :").pack(pady=10)
 min_price_entry = tk.Entry(root, width=30)
