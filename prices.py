@@ -13,7 +13,7 @@ def search_vehicle(name=None, category=None, min_price=None, max_price=None):
         
         if category and category != "Tous" and vehicle['Catégorie'].lower() != category.lower():
             continue
-
+        
         try:
             price = float(vehicle['Prix'].replace('$', '').replace(' ', '').strip())
         except ValueError:
@@ -34,18 +34,18 @@ def on_search(event=None):
         min_price = float(min_price_entry.get().strip()) if min_price_entry.get().strip() else None
         max_price = float(max_price_entry.get().strip()) if max_price_entry.get().strip() else None
     except ValueError:
-        result_text.delete(1.0, tk.END)
+        result_text.delete(1.0, tk.END) 
         result_text.insert(tk.END, "Veuillez entrer des prix valides.")
         return
 
     if not name and not category and not min_price and not max_price:
-        result_text.delete(1.0, tk.END)
+        result_text.delete(1.0, tk.END) 
         result_text.insert(tk.END, "Veuillez entrer au moins un critère de recherche.")
         return
 
     results = search_vehicle(name, category, min_price, max_price)
     
-    result_text.delete(1.0, tk.END) 
+    result_text.delete(1.0, tk.END)  
     
     if results:
         result_text.insert(tk.END, "\n\n".join([f"Nom : {vehicle['Nom véhicule']}\nCatégorie : {vehicle['Catégorie']}\nPrix : {vehicle['Prix']}\n" for vehicle in results]))
@@ -89,5 +89,7 @@ scrollbar = tk.Scrollbar(result_frame, command=result_text.yview)
 scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
 result_text.config(yscrollcommand=scrollbar.set)
+
+name_entry.bind("<Return>", on_search)
 
 root.mainloop()
