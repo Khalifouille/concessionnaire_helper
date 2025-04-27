@@ -71,6 +71,12 @@ def on_submit():
     telephone = telephone_entry.get()
     immatriculation = immatriculation_entry.get()
 
+    try:
+        quantite_int = int(quantite)
+    except ValueError:
+        messagebox.showerror("Erreur", "❌ Quantité invalide.")
+        return
+
     result = search_vehicle(nom_vehicule)
 
     if result:
@@ -84,7 +90,10 @@ def on_submit():
         cout_usine = ""
         salaire_variable = ""
 
-    prix_facture = get_vehicle_price_clean(nom_vehicule)
+    if type_vente.lower() == "double des clés":
+        prix_facture = str(500 * quantite_int)
+    else:
+        prix_facture = get_vehicle_price_clean(nom_vehicule)
 
     vente_data = {
         "vendeur": vendeur,
