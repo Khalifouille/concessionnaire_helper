@@ -54,19 +54,20 @@ def on_submit():
     row_number = find_first_empty_row()
 
     try:
-        sheet.update(f'A{row_number}', vendeur)
-        sheet.update(f'B{row_number}', grade)
-        sheet.update(f'C{row_number}', type_vente)
-        sheet.update(f'D{row_number}', quantite)
-        sheet.update(f'E{row_number}', date_vente)
-        sheet.update(f'L{row_number}', nom_vehicule)
-        sheet.update(f'M{row_number}', "") 
-        sheet.update(f'N{row_number}', cout_usine)
-        sheet.update(f'O{row_number}', salaire_variable)
-        sheet.update(f'P{row_number}', ancien_proprio)
-        sheet.update(f'Q{row_number}', nouveau_proprio)
-        sheet.update(f'R{row_number}', telephone)
-        sheet.update(f'S{row_number}', immatriculation)
+        sheet.update(f'A{row_number}', [[vendeur]])
+        sheet.update(f'B{row_number}', [[grade]])
+        sheet.update(f'C{row_number}', [[type_vente]])
+        sheet.update(f'D{row_number}', [[quantite]])
+        sheet.update(f'E{row_number}', [[date_vente]])
+        sheet.update(f'L{row_number}', [[nom_vehicule]])
+        sheet.update(f'M{row_number}', [[""]])
+        sheet.update(f'N{row_number}', [[cout_usine]])
+        sheet.update(f'O{row_number}', [[salaire_variable]])
+        sheet.update(f'P{row_number}', [[ancien_proprio]])
+        sheet.update(f'Q{row_number}', [[nouveau_proprio]])
+        sheet.update(f'R{row_number}', [[telephone]])
+        sheet.update(f'S{row_number}', [[immatriculation]])
+
 
         messagebox.showinfo("Succès", "✅ Vente enregistrée !")
     except Exception as e:
