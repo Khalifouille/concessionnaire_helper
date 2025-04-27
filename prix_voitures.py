@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import messagebox
 import json
 
 with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
@@ -17,9 +16,9 @@ def on_search():
     
     if result:
         category, price = result
-        messagebox.showinfo("Résultat", f"Le véhicule '{vehicle_name}' se trouve dans la catégorie '{category}' et coûte {price}.")
+        result_label.config(text=f"Catégorie : {category}\nPrix : {price}")
     else:
-        messagebox.showwarning("Non trouvé", f"Le véhicule '{vehicle_name}' n'a pas été trouvé.")
+        result_label.config(text="Non trouvée")
 
 root = tk.Tk()
 root.title("Recherche de Véhicule")
@@ -32,5 +31,8 @@ entry.pack(pady=10)
 
 search_button = tk.Button(root, text="Rechercher", command=on_search)
 search_button.pack(pady=20)
+
+result_label = tk.Label(root, text="", font=('Arial', 12), justify='left')
+result_label.pack(pady=20)
 
 root.mainloop()
