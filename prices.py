@@ -11,13 +11,13 @@ def search_vehicle(name=None, category=None, min_price=None, max_price=None):
         if name and name.lower() not in vehicle['Nom véhicule'].lower():
             continue
         
-        if category and vehicle['Catégorie'].lower() != category.lower():
+        if category and category != "Tous" and vehicle['Catégorie'].lower() != category.lower():
             continue
+
         try:
             price = float(vehicle['Prix'].replace('$', '').replace(' ', '').strip())
         except ValueError:
-            price = 0  
-
+            price = 0
         if min_price and price < min_price:
             continue
         if max_price and price > max_price:
@@ -39,14 +39,13 @@ def on_search(event=None):
         return
 
     if not name and not category and not min_price and not max_price:
-        result_text.delete(1.0, tk.END) 
+        result_text.delete(1.0, tk.END)
         result_text.insert(tk.END, "Veuillez entrer au moins un critère de recherche.")
         return
 
-
     results = search_vehicle(name, category, min_price, max_price)
     
-    result_text.delete(1.0, tk.END)
+    result_text.delete(1.0, tk.END) 
     
     if results:
         result_text.insert(tk.END, "\n\n".join([f"Nom : {vehicle['Nom véhicule']}\nCatégorie : {vehicle['Catégorie']}\nPrix : {vehicle['Prix']}\n" for vehicle in results]))
@@ -63,6 +62,8 @@ name_entry.pack(pady=10)
 tk.Label(root, text="Catégorie de véhicule :").pack(pady=10)
 
 categories = sorted(set(vehicle['Catégorie'] for vehicle in vehicle_data))
+
+categories = ["Tous"] + categories
 
 category_combobox = ttk.Combobox(root, values=categories, width=30)
 category_combobox.pack(pady=10)
