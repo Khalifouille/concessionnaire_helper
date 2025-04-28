@@ -65,8 +65,6 @@ def send_to_webhook(data):
             {"name": "Date", "value": data['date_vente'], "inline": True},
             {"name": "Nom du Véhicule", "value": data['nom_vehicule'], "inline": True},
             {"name": "Facture Employé", "value": data['prix_facture'] + " $", "inline": True},
-            {"name": "Coût Usine", "value": data['cout_usine'], "inline": True},
-            {"name": "Salaire Variable", "value": str(data['salaire_variable']) + " $", "inline": True},
             {"name": "Ancien Propriétaire", "value": data['ancien_proprio'], "inline": True},
             {"name": "Nouveau Propriétaire", "value": data['nouveau_proprio'], "inline": True},
             {"name": "Téléphone", "value": data['telephone'], "inline": True},
