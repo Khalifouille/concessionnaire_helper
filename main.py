@@ -265,7 +265,13 @@ search_button.pack(pady=10)
 result_text = tk.Text(recherche_frame, width=50, height=15)
 result_text.pack()
 
-vente_frame.bind("<Return>", lambda event: submit_vente())
-recherche_frame.bind("<Return>", lambda event: search_vehicle_tab())
+def on_enter(event=None):
+    current_tab = notebook.index(notebook.select())
+    if current_tab == 0:
+        submit_vente()
+    elif current_tab == 1:
+        search_vehicle_tab()
+
+root.bind("<Return>", on_enter)
 
 root.mainloop()
