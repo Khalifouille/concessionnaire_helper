@@ -135,12 +135,18 @@ def submit_vente():
     else:
         messagebox.showerror("Erreur", "❌ Erreur d'envoi au webhook.")
 
-def select_vehicle(vehicle_name):
+def select_vehicle(vehicle_name, vehicle_price):
     vehicule_entry.delete(0, tk.END)
     vehicule_entry.insert(0, vehicle_name)
     type_vente_var.set("Vente véhicule")
     quantite_entry.delete(0, tk.END)
     quantite_entry.insert(0, "1")
+    
+    clean_price = vehicle_price.replace('$', '').replace(' ', '').strip()
+
+    root.clipboard_clear()
+    root.clipboard_append(clean_price)
+    
     notebook.select(0)  
     ancien_proprio_entry.focus_set()
 
@@ -195,7 +201,7 @@ def search_vehicle_tab():
             
             btn_frame = tk.Frame(result_text)
             btn = tk.Button(btn_frame, text="Sélectionner", 
-                           command=lambda name=v['Nom véhicule']: select_vehicle(name))
+                          command=lambda name=v['Nom véhicule'], price=v['Prix']: select_vehicle(name, price))
             btn.pack(pady=5)
             
             result_text.window_create(tk.END, window=btn_frame)
