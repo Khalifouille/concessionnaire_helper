@@ -135,6 +135,15 @@ def submit_vente():
     else:
         messagebox.showerror("Erreur", "❌ Erreur d'envoi au webhook.")
 
+def select_vehicle(vehicle_name):
+    vehicule_entry.delete(0, tk.END)
+    vehicule_entry.insert(0, vehicle_name)
+    type_vente_var.set("Vente véhicule")
+    quantite_entry.delete(0, tk.END)
+    quantite_entry.insert(0, "1")
+    notebook.select(0)  
+    ancien_proprio_entry.focus_set()
+
 def search_vehicle_tab():
     name = name_entry.get().strip()
     category = category_combobox.get().strip()
@@ -182,7 +191,15 @@ def search_vehicle_tab():
     if results:
         for v in results:
             coffre = trunk_spaces.get(v['Catégorie'], "Inconnu")
-            result_text.insert(tk.END, f"Nom : {v['Nom véhicule']}\nCatégorie : {v['Catégorie']} (Coffre: {coffre} kg)\nPrix : {v['Prix']}\n\n")
+            result_text.insert(tk.END, f"Nom : {v['Nom véhicule']}\nCatégorie : {v['Catégorie']} (Coffre: {coffre} kg)\nPrix : {v['Prix']}\n")
+            
+            btn_frame = tk.Frame(result_text)
+            btn = tk.Button(btn_frame, text="Sélectionner", 
+                           command=lambda name=v['Nom véhicule']: select_vehicle(name))
+            btn.pack(pady=5)
+            
+            result_text.window_create(tk.END, window=btn_frame)
+            result_text.insert(tk.END, "\n\n")
     else:
         result_text.insert(tk.END, "Aucun véhicule trouvé.")
 
@@ -263,8 +280,16 @@ trunk_filter_menu.pack()
 search_button = tk.Button(recherche_frame, text="Rechercher", command=search_vehicle_tab)
 search_button.pack(pady=10)
 
-result_text = tk.Text(recherche_frame, width=50, height=15)
-result_text.pack()
+result_frame = tk.Frame(recherche_frame)
+result_frame.pack(fill='both', expand=True)
+
+scrollbar = tk.Scrollbar(result_frame)
+scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+result_text = tk.Text(result_frame, width=60, height=15, yscrollcommand=scrollbar.set)
+result_text.pack(side=tk.LEFT, fill='both', expand=True)
+
+scrollbar.config(command=result_text.yview)
 
 def on_enter(event=None):
     current_tab = notebook.index(notebook.select())
