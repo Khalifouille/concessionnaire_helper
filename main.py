@@ -17,12 +17,11 @@ trunk_spaces = {
     "Commercial": 1000,
     "Compact": 15,
     "Coupés": 20,
-    "Moto-Vélo": 0,
+    "Moto-Vélo": 10,
     "Emergency": 500,
     "Helicopters": 1000,
     "Industrial": 2000,
     "Military": 500,
-    "Moto-Vélo": 10,
     "Muscles": 25,
     "Tout Terrain": 50,
     "Open Wheel": 50,
@@ -100,14 +99,8 @@ def submit_vente():
 
     if result:
         name, price = result
-        cout_usine = price
-        try:
-            salaire_variable = int(price.replace(" ", "").replace("$", "")) // 10
-        except:
-            salaire_variable = ""
     else:
-        cout_usine = ""
-        salaire_variable = ""
+        price = '0'
 
     if type_vente.lower() == "double des clés":
         prix_facture = str(500 * quantite_int)
@@ -122,8 +115,6 @@ def submit_vente():
         "date_vente": date_vente,
         "nom_vehicule": nom_vehicule,
         "prix_facture": prix_facture,
-        "cout_usine": cout_usine,
-        "salaire_variable": salaire_variable,
         "ancien_proprio": ancien_proprio,
         "nouveau_proprio": nouveau_proprio,
         "telephone": telephone,
@@ -147,6 +138,8 @@ def submit_vente():
 def search_vehicle_tab():
     name = name_entry.get().strip()
     category = category_combobox.get().strip()
+    trunk_min = trunk_filter_var.get().strip()
+    trunk_min = int(trunk_min) if trunk_min and trunk_min != "Tous" else None
 
     try:
         min_price = float(min_price_entry.get().strip()) if min_price_entry.get().strip() else None
@@ -156,7 +149,7 @@ def search_vehicle_tab():
         result_text.insert(tk.END, "Veuillez entrer des prix valides.")
         return
 
-    if not name and not category and not min_price and not max_price:
+    if not name and not category and not min_price and not max_price and not trunk_min:
         result_text.delete(1.0, tk.END)
         result_text.insert(tk.END, "Veuillez entrer au moins un critère de recherche.")
         return
@@ -177,6 +170,10 @@ def search_vehicle_tab():
         if min_price and price < min_price:
             continue
         if max_price and price > max_price:
+            continue
+
+        coffre = trunk_spaces.get(vehicle['Catégorie'], 0)
+        if trunk_min is not None and coffre < trunk_min:
             continue
 
         results.append(vehicle)
@@ -256,6 +253,12 @@ min_price_entry.pack()
 tk.Label(recherche_frame, text="Prix maximum:").pack()
 max_price_entry = tk.Entry(recherche_frame)
 max_price_entry.pack()
+
+tk.Label(recherche_frame, text="Taille minimum du coffre (kg) :").pack()
+trunk_filter_var = tk.StringVar()
+trunk_filter_menu = ttk.Combobox(recherche_frame, textvariable=trunk_filter_var)
+trunk_filter_menu['values'] = ("Tous", "0", "10", "20", "25", "50", "75", "500", "1000", "1500", "2000")
+trunk_filter_menu.pack()
 
 search_button = tk.Button(recherche_frame, text="Rechercher", command=search_vehicle_tab)
 search_button.pack(pady=10)
