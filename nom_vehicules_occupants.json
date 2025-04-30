@@ -1,0 +1,2474 @@
+[
+    {
+        "DisplayName": "Adder",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Airport Bus",
+        "MaxOccupants": 17
+    },
+    {
+        "DisplayName": "Airtug",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Akula",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Akuma",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Alpha",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Alpha-Z1",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Ambulance",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Annihilator",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "APC",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Ardent",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Army Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Army Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Asea",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Asea",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Asterope",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Autarch",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Avarus",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Avenger",
+        "MaxOccupants": 4
+    },
+    {
+        "DisplayName": "Bagger",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Baletrailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Baller",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Baller",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Baller LE",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Baller LE LWB",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Baller LE (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Baller LE LWB (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Banshee",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Banshee 900R",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Barracks",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Barracks Semi",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Barracks",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Barrage",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Bati 801",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Bati 801RR",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Benson",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Besra",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Bestia GTS",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "BF400",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Injection",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Biff",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Bifta",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Bison",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Bison",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Bison",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "BeeJay XL",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Blade",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Blazer",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Blazer Lifeguard",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Hot Rod Blazer",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Street Blazer",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Blazer Aqua",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Atomic Blimp",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Xero Blimp",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Blimp",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Blista",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Blista Compact",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Go Go Monkey Blista",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "BMX",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Boat Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Bobcat XL",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Bodhi",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "RM-10 Bombushka",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Boxville",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Boxville",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Boxville",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Boxville",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Armored Boxville",
+        "MaxOccupants": 6
+    },
+    {
+        "DisplayName": "Brawler",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Brickade",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Brioso R/A",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Bruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Future Shock Bruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Nightmare Bruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Roosevelt",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Fränken Stange",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Roosevelt Valor",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Buccaneer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Buccaneer Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Buffalo",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Buffalo S",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sprunk Buffalo",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dozer",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Bullet",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Burrito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Burrito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Burrito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Burrito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Burrito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Bus",
+        "MaxOccupants": 17
+    },
+    {
+        "DisplayName": "Buzzard Attack Chopper",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Buzzard",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Cable Car",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Caddy",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Caddy",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Caddy",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Camper",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Carbonizzare",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Carbon RS",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cargobob",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Cargobob",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Cargobob",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Cargobob",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cargo Plane",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Casco",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cavalcade",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Cavalcade",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Apocalypse Cerberus",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock Cerberus",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare Cerberus",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cheetah",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cheetah Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Chernobog",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Chimera",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Chino",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Chino Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cliffhanger",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Clique",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Dashound",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Cognoscenti 55",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Cognoscenti 55 (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Cognoscenti Cabrio",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cognoscenti",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Cognoscenti (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Comet",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Comet Retro Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Comet Safari",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Contender",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Coquette",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Coquette Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Coquette BlackFin",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cruiser",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Crusader",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Cuban 800",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Cutter",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Cyclone",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Daemon",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Daemon",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Deathbike",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Future Shock Deathbike",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Nightmare Deathbike",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Defiler",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Deluxo",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Deveste Eight",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Deviant",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Diabolus",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Diabolus Custom",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Dilettante",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dilettante",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dinghy",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dinghy",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Dinghy",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dinghy",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Duneloader",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "NULL",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Docktug",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Dodo",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dominator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Pisswasser Dominator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Dominator GTX",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Dominator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock Dominator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare Dominator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Double-T",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Dubsta",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dubsta",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Dubsta 6x6",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Dukes",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Duke O'Death",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Dump",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Dune Buggy",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Space Docker",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Dune FAV",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Ramp Buggy",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Ramp Buggy",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Duster",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Elegy Retro Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Elegy RH8",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Emperor",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Emperor",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Emperor",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Enduro",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Entity XF",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Esskey",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Exemplar",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "F620",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Faction",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Faction Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Faction Custom Donk",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Faggio Sport",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Faggio",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Faggio Mod",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "FIB",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "FIB",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "FCR 1000",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "FCR 1000 Custom",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Felon",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Felon GT",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Feltzer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Stirling GT",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Fire Truck",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "Fixter",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Flatbed",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "FMJ",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Forklift",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "FQ 2",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Freecrawler",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Freight Train",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Freight Train",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Freight Train",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Freight Train",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Freight Train",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Frogger",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Frogger",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Fugitive",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Furore GT",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Fusilade",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Futo",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Gargoyle",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Gauntlet",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Redwood Gauntlet",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Gang Burrito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Gang Burrito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Glendale",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "GP1",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "NULL",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Granger",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "Gresley",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "GT500",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Guardian",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Habanero",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Hakuchou",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Hakuchou Drag",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Half-track",
+        "MaxOccupants": 4
+    },
+    {
+        "DisplayName": "Dock Handler",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Hauler",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Hauler Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Havok",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Hermes",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Hexer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Hotknife",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Hotring Sabre",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Howard NX-25",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "FH-1 Hunter",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Huntley S",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Hydra",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Apocalypse Impaler",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock Impaler",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare Impaler",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Imperator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock Imperator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare Imperator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Infernus",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Infernus Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Ingot",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Innovation",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Insurgent Pick-Up",
+        "MaxOccupants": 10
+    },
+    {
+        "DisplayName": "Insurgent",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Insurgent Pick-Up Custom",
+        "MaxOccupants": 10
+    },
+    {
+        "DisplayName": "Intruder",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Issi",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Issi Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Issi",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock Issi",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare Issi",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Itali GTB",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Itali GTB Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Itali GTO",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Jackal",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "JB 700",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Jester",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Jester (Racecar)",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Jet",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Jetmax",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Journey",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Kalahari",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Khamelion",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "TM-02 Khanjali",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Kuruma",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Kuruma (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Landstalker",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "P-996 LAZER",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "RE-7B",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Lectro",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Lifeguard",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Turreted Limo",
+        "MaxOccupants": 6
+    },
+    {
+        "DisplayName": "Lurcher",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Luxor",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Luxor Deluxe",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "NULL",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Mamba",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Mammatus",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Manana",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Manchez",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Marquis",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Marshall",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Massacro",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Massacro (Racecar)",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Maverick",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Menacer",
+        "MaxOccupants": 6
+    },
+    {
+        "DisplayName": "Mesa",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Mesa",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Mesa",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Ultralight",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Miljet",
+        "MaxOccupants": 17
+    },
+    {
+        "DisplayName": "Minivan",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Minivan Custom",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Mixer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Mixer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Mogul",
+        "MaxOccupants": 4
+    },
+    {
+        "DisplayName": "V-65 Molotok",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Monroe",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Liberator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Sasquatch",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock Sasquatch",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare Sasquatch",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Moonbeam",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Moonbeam Custom",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Lawn Mower",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Mule",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Mule",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Mule",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Mule Custom",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Nemesis",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Neon",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Nero",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nero Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightblade",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightshade",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightshark",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Nimbus",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "9F",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "9F Cabrio",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "P-45 Nokota",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Omnis",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Oppressor",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Oppressor Mk II",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Oracle XS",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Oracle",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Osiris",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Packer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Panto",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Paradise",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Pariah",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Patriot",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Patriot Stretch",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Prison Bus",
+        "MaxOccupants": 12
+    },
+    {
+        "DisplayName": "Festival Bus",
+        "MaxOccupants": 12
+    },
+    {
+        "DisplayName": "PCJ 600",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Penetrator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Penumbra",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Peyote",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "811",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Phantom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Phantom Wedge",
+        "MaxOccupants": 6
+    },
+    {
+        "DisplayName": "Phantom Custom",
+        "MaxOccupants": 6
+    },
+    {
+        "DisplayName": "Phoenix",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Picador",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Pigalle",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Police Cruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Police Cruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Police Cruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Unmarked Cruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Police Bike",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Police Rancher",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Police Roadcruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Police Transporter",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Police Maverick",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Pony",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Pony",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Pounder",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Pounder Custom",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "Prairie",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Park Ranger",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "Police Predator",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Premier",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Primo",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Primo Custom",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "NULL",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "X80 Proto",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Pyro",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Radius",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Raiden",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Dune",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rancher XL",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Rancher XL",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Rapid GT",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rapid GT",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rapid GT Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Raptor",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rat Bike",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rat-Loader",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rat-Truck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "RC Bandito",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Reaper",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rusty Rebel",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rebel",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Regina",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Rental Shuttle Bus",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Retinue",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Revolter",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Rhapsody",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rhino Tank",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Riata",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Police Riot",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "RCV",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Ripley",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rocoto",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Rogue",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Romero Hearse",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rubble",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Ruffian",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Ruiner",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Ruiner 2000",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Ruiner",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rumpo",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Rumpo",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rumpo Custom",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Ruston",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sabre Turbo",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sabre Turbo Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sadler",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sadler",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sanchez",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sanctus",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Sandking XL",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sandking SWB",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Savage",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Savestra",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "SC1",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Scarab",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Future Shock Scarab",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Nightmare Scarab",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Schafter",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Schafter V12",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Schafter LWB",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Schafter V12 (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Schafter LWB (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Schlagen GT",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Schwartzer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Scorcher",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Scramjet",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Scrap Truck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Seabreeze",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Seashark",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Seashark",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Seashark",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sea Sparrow",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Seminole",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sentinel XS",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sentinel",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sentinel Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Serrano",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Seven-70",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Shamal",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "ETR1",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sheriff Cruiser",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sheriff SUV",
+        "MaxOccupants": 9
+    },
+    {
+        "DisplayName": "Shotaro",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Skylift",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Slamvan",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Lost Slamvan",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Slamvan Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse Slamvan",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock Slamvan",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare Slamvan",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Sovereign",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Specter",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Specter Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Speeder",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Speeder",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Speedo",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Clown Van",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Speedo Custom",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Squalo",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Stafford",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Stallion",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Burger Shot Stallion",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Stanier",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "LF-22 Starling",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Stinger",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Stinger GT",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Stockade",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Stockade",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Stratum",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Streiter",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Stretch",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "B-11 Strikeforce",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Stromberg",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Mallard",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Submersible",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Kraken",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Sultan",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Sultan RS",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Suntrap",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Super Diamond",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "SuperVolito",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "SuperVolito Carbon",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Surano",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Surfer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Surfer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Surge",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Swift",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Swift Deluxe",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Swinger",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "T20",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Taco Van",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Tailgater",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Tampa",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Drift Tampa",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Weaponized Tampa",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "NULL",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Freight Train",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Taxi",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Technical",
+        "MaxOccupants": 4
+    },
+    {
+        "DisplayName": "Technical Aqua",
+        "MaxOccupants": 4
+    },
+    {
+        "DisplayName": "Technical Custom",
+        "MaxOccupants": 4
+    },
+    {
+        "DisplayName": "Tempesta",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Terrorbyte",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Thrust",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Thruster",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Tipper",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tipper",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Titan",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Torero",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tornado",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tornado",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tornado",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tornado",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tornado Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tornado Rat Rod",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Toro",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Toro",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Toros",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Tourbus",
+        "MaxOccupants": 11
+    },
+    {
+        "DisplayName": "Towtruck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Towtruck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Tractor",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Fieldmaster",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Fieldmaster",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Anti-Aircraft Trailer",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Trashmaster",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Trashmaster",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Whippet Race Bike",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Endurex Race Bike",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Tri-Cycles Race Bike",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Trophy Truck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Desert Raid",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tropic",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Tropic",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Tropos Rallye",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Tug",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Tula",
+        "MaxOccupants": 6
+    },
+    {
+        "DisplayName": "Tulip",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Turismo Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Turismo R",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Trailer",
+        "MaxOccupants": 1
+    },
+    {
+        "DisplayName": "Tyrus",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Utility Truck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Utility Truck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Utility Truck",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vacca",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vader",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vagner",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Valkyrie",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Valkyrie MOD.0",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Vamos",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Velum",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Velum 5-Seater",
+        "MaxOccupants": 6
+    },
+    {
+        "DisplayName": "Verlierer",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vestra",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vigero",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vigilante",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vindicator",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Virgo",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Virgo Classic Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Virgo Classic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Viseris",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Visione",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Volatol",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Volatus",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Voltic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Rocket Voltic",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Voodoo Custom",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Voodoo",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Vortex",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Warrener",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Washington",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Wastelander",
+        "MaxOccupants": 7
+    },
+    {
+        "DisplayName": "Windsor",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Windsor Drop",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Wolfsbane",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "XA-21",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "XLS",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "XLS (Armored)",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Yosemite",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Youga",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Youga Classic",
+        "MaxOccupants": 5
+    },
+    {
+        "DisplayName": "Zentorno",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Zion",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Zion Cabrio",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Zombie Bobber",
+        "MaxOccupants": 2
+    },
+    {
+        "DisplayName": "Zombie Chopper",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Apocalypse ZR380",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Future Shock ZR380",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Nightmare ZR380",
+        "MaxOccupants": 3
+    },
+    {
+        "DisplayName": "Z-Type",
+        "MaxOccupants": 3
+    }
+]
