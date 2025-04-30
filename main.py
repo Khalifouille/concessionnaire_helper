@@ -142,7 +142,7 @@ def select_vehicle(vehicle_name, vehicle_price):
     seats = seats_dict.get(normalize_name(vehicle_name), 'Inconnu')
 
     root.clipboard_clear()
-    root.clipboard_append(f"Prix: {clean_price} | Sièges: {seats}")
+    root.clipboard_append(clean_price)
 
     notebook.select(0)
     ancien_proprio_entry.focus_set()
