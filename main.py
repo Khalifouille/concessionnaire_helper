@@ -4,6 +4,7 @@ import json
 import datetime
 import requests
 import os
+import re
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -12,29 +13,26 @@ WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 with open('all_vehicles_data.json', 'r', encoding='utf-8') as f:
     vehicle_data = json.load(f)
 
+with open('nom_vehicules_occupants.json', 'r', encoding='utf-8') as f:
+    seats_data = json.load(f)
+
+def normalize_name(name):
+    name = name.lower()
+    name = re.sub(r'\(.*?\)', '', name)
+    name = re.sub(r'[^a-z0-9]', '', name)
+    return name.strip()
+
+seats_dict = {
+    normalize_name(vehicle["DisplayName"]): vehicle["MaxOccupants"]
+    for vehicle in seats_data
+}
+
 trunk_spaces = {
-    "Boats": 1500,
-    "Commercial": 1000,
-    "Compact": 15,
-    "Coupés": 20,
-    "Moto-Vélo": 10,
-    "Emergency": 500,
-    "Helicopters": 1000,
-    "Industrial": 2000,
-    "Military": 500,
-    "Muscles": 25,
-    "Tout Terrain": 50,
-    "Open Wheel": 50,
-    "Planes": 2000,
-    "SUV": 75,
-    "Sedans": 25,
-    "Service": 2000,
-    "Sportive": 20,
-    "Sportive Classique": 20,
-    "Super Sportive": 10,
-    "Trains": 2000,
-    "Utility": 2000,
-    "Vans": 500
+    "Boats": 1500, "Commercial": 1000, "Compact": 15, "Coupés": 20, "Moto-Vélo": 10,
+    "Emergency": 500, "Helicopters": 1000, "Industrial": 2000, "Military": 500,
+    "Muscles": 25, "Tout Terrain": 50, "Open Wheel": 50, "Planes": 2000, "SUV": 75,
+    "Sedans": 25, "Service": 2000, "Sportive": 20, "Sportive Classique": 20,
+    "Super Sportive": 10, "Trains": 2000, "Utility": 2000, "Vans": 500
 }
 
 def search_vehicle(name):
@@ -72,7 +70,6 @@ def send_to_webhook(data):
         "footer": {"text": "LS MOTOR - Système de Vente"},
         "timestamp": datetime.datetime.utcnow().isoformat()
     }
-
     payload = {"embeds": [embed]}
     response = requests.post(WEBHOOK_URL, json=payload)
     return response.status_code == 204
@@ -96,7 +93,6 @@ def submit_vente():
         return
 
     result = search_vehicle(nom_vehicule)
-
     if result:
         name, price = result
     else:
@@ -141,13 +137,14 @@ def select_vehicle(vehicle_name, vehicle_price):
     type_vente_var.set("Vente véhicule")
     quantite_entry.delete(0, tk.END)
     quantite_entry.insert(0, "1")
-    
+
     clean_price = vehicle_price.replace('$', '').replace(' ', '').strip()
+    seats = seats_dict.get(normalize_name(vehicle_name), 'Inconnu')
 
     root.clipboard_clear()
-    root.clipboard_append(clean_price)
-    
-    notebook.select(0)  
+    root.clipboard_append(f"Prix: {clean_price} | Sièges: {seats}")
+
+    notebook.select(0)
     ancien_proprio_entry.focus_set()
 
 def search_vehicle_tab():
@@ -155,6 +152,9 @@ def search_vehicle_tab():
     category = category_combobox.get().strip()
     trunk_min = trunk_filter_var.get().strip()
     trunk_min = int(trunk_min) if trunk_min and trunk_min != "Tous" else None
+
+    seats_min = seats_filter_var.get().strip()
+    seats_min = int(seats_min) if seats_min and seats_min != "Tous" else None
 
     try:
         min_price = float(min_price_entry.get().strip()) if min_price_entry.get().strip() else None
@@ -164,7 +164,7 @@ def search_vehicle_tab():
         result_text.insert(tk.END, "Veuillez entrer des prix valides.")
         return
 
-    if not name and not category and not min_price and not max_price and not trunk_min:
+    if not name and not category and not min_price and not max_price and not trunk_min and not seats_min:
         result_text.delete(1.0, tk.END)
         result_text.insert(tk.END, "Veuillez entrer au moins un critère de recherche.")
         return
@@ -173,7 +173,6 @@ def search_vehicle_tab():
     for vehicle in vehicle_data:
         if name and name.lower() not in vehicle['Nom véhicule'].lower():
             continue
-
         if category and category != "Tous" and vehicle['Catégorie'].lower() != category.lower():
             continue
 
@@ -191,19 +190,24 @@ def search_vehicle_tab():
         if trunk_min is not None and coffre < trunk_min:
             continue
 
+        seats = seats_dict.get(normalize_name(vehicle['Nom véhicule']))
+        if seats_min is not None:
+            if not seats or seats < seats_min:
+                continue
+
         results.append(vehicle)
 
     result_text.delete(1.0, tk.END)
     if results:
         for v in results:
             coffre = trunk_spaces.get(v['Catégorie'], "Inconnu")
-            result_text.insert(tk.END, f"Nom : {v['Nom véhicule']}\nCatégorie : {v['Catégorie']} (Coffre: {coffre} kg)\nPrix : {v['Prix']}\n")
-            
+            seats = seats_dict.get(normalize_name(v['Nom véhicule']), 'Inconnu')
+            result_text.insert(tk.END, f"Nom : {v['Nom véhicule']}\nCatégorie : {v['Catégorie']} (Coffre: {coffre} kg)\nPrix : {v['Prix']}\nSièges : {seats}\n")
+
             btn_frame = tk.Frame(result_text)
-            btn = tk.Button(btn_frame, text="Sélectionner", 
-                          command=lambda name=v['Nom véhicule'], price=v['Prix']: select_vehicle(name, price))
+            btn = tk.Button(btn_frame, text="Sélectionner",
+                            command=lambda name=v['Nom véhicule'], price=v['Prix']: select_vehicle(name, price))
             btn.pack(pady=5)
-            
             result_text.window_create(tk.END, window=btn_frame)
             result_text.insert(tk.END, "\n\n")
     else:
@@ -283,6 +287,12 @@ trunk_filter_menu = ttk.Combobox(recherche_frame, textvariable=trunk_filter_var)
 trunk_filter_menu['values'] = ("Tous", "0", "10", "20", "25", "50", "75", "500", "1000", "1500", "2000")
 trunk_filter_menu.pack()
 
+tk.Label(recherche_frame, text="Nombre minimum de sièges :").pack()
+seats_filter_var = tk.StringVar()
+seats_filter_menu = ttk.Combobox(recherche_frame, textvariable=seats_filter_var)
+seats_filter_menu['values'] = ("Tous", "1", "2", "3", "4", "5", "6", "7", "9", "11", "17")
+seats_filter_menu.pack()
+
 search_button = tk.Button(recherche_frame, text="Rechercher", command=search_vehicle_tab)
 search_button.pack(pady=10)
 
@@ -297,13 +307,5 @@ result_text.pack(side=tk.LEFT, fill='both', expand=True)
 
 scrollbar.config(command=result_text.yview)
 
-def on_enter(event=None):
-    current_tab = notebook.index(notebook.select())
-    if current_tab == 0:
-        submit_vente()
-    elif current_tab == 1:
-        search_vehicle_tab()
-
-root.bind("<Return>", on_enter)
-
+root.bind("<Return>", lambda e: submit_vente() if notebook.index(notebook.select()) == 0 else search_vehicle_tab())
 root.mainloop()
