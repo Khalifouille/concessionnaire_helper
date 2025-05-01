@@ -32,14 +32,14 @@
         "Nom véhicule": "ASBO",
         "Prix": "1 015 $",
         "MaxOccupants": "Inconnu",
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\Asbo.png"
     },
     {
         "Catégorie": "Compact",
         "Nom véhicule": "CLUB",
         "Prix": "1 060 $",
         "MaxOccupants": "Inconnu",
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\Club.png"
     },
     {
         "Catégorie": "Compact",
@@ -60,7 +60,7 @@
         "Nom véhicule": "KANJO",
         "Prix": "1 375 $",
         "MaxOccupants": "Inconnu",
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\Kanjo.png"
     },
     {
         "Catégorie": "Compact",
@@ -74,7 +74,7 @@
         "Nom véhicule": "BRIOSO 300",
         "Prix": "4 375 $",
         "MaxOccupants": "Inconnu",
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\Brioso 300.png"
     },
     {
         "Catégorie": "Compact",
