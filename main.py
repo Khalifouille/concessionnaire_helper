@@ -6,6 +6,8 @@ import requests
 import os
 import re
 from dotenv import load_dotenv
+from PIL import Image, ImageTk
+
 
 load_dotenv()
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
@@ -214,7 +216,9 @@ def search_vehicle_tab():
             image_path = get_vehicle_image(v['Nom véhicule'])
             if image_path:
                 try:
-                    img = tk.PhotoImage(file=image_path)
+                    pil_img = Image.open(image_path)
+                    pil_img = pil_img.resize((200, 120), Image.ANTIALIAS)
+                    img = ImageTk.PhotoImage(pil_img)
                     img_label = tk.Label(result_text, image=img)
                     img_label.image = img
                     result_text.window_create(tk.END, window=img_label)
