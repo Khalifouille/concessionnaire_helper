@@ -217,7 +217,7 @@ def search_vehicle_tab():
             if image_path:
                 try:
                     pil_img = Image.open(image_path)
-                    pil_img = pil_img.resize((200, 120), Image.ANTIALIAS)
+                    pil_img = pil_img.resize((200, 120), Image.LANCZOS)
                     img = ImageTk.PhotoImage(pil_img)
                     img_label = tk.Label(result_text, image=img)
                     img_label.image = img
