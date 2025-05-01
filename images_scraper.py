@@ -5,10 +5,9 @@ import os
 import re
 from time import sleep
 
-# Configuration
 INPUT_JSON = "nom_vehicules_occupants.json"
 OUTPUT_DIR = "vehicle_images"
-DELAY = 1 
+DELAY = 1
 
 def setup_dirs():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
