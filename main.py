@@ -6,6 +6,9 @@ import requests
 import os
 import re
 from dotenv import load_dotenv
+from PIL import Image, ImageTk
+import io
+import urllib.request
 
 load_dotenv()
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
@@ -147,6 +150,28 @@ def select_vehicle(vehicle_name, vehicle_price):
     notebook.select(0)
     ancien_proprio_entry.focus_set()
 
+def display_image(image_path, parent_frame):
+    try:
+        if image_path == "Non disponible":
+            return None
+            
+        if image_path.startswith('http'):
+            with urllib.request.urlopen(image_path) as url:
+                image_data = url.read()
+            image = Image.open(io.BytesIO(image_data))
+        else:
+            image = Image.open(image_path)
+            
+        image = image.resize((100, 100), Image.Resampling.LANCZOS)
+        photo = ImageTk.PhotoImage(image)
+        
+        img_label = tk.Label(parent_frame, image=photo)
+        img_label.image = photo
+        return img_label
+    except Exception as e:
+        print(f"Erreur de chargement de l'image: {e}")
+        return None
+
 def search_vehicle_tab():
     name = name_entry.get().strip()
     category = category_combobox.get().strip()
@@ -200,15 +225,32 @@ def search_vehicle_tab():
     result_text.delete(1.0, tk.END)
     if results:
         for v in results:
+            result_frame = tk.Frame(result_text)
+            
+            if 'Image' in v and v['Image'] != "Non disponible":
+                img_frame = tk.Frame(result_frame)
+                img_frame.pack(side=tk.LEFT, padx=5)
+                img_label = display_image(v['Image'], img_frame)
+                if img_label:
+                    img_label.pack()
+            
+            info_frame = tk.Frame(result_frame)
+            info_frame.pack(side=tk.LEFT, fill=tk.X, expand=True)
+            
             coffre = trunk_spaces.get(v['Catégorie'], "Inconnu")
             seats = seats_dict.get(normalize_name(v['Nom véhicule']), 'Inconnu')
-            result_text.insert(tk.END, f"Nom : {v['Nom véhicule']}\nCatégorie : {v['Catégorie']} (Coffre: {coffre} kg)\nPrix : {v['Prix']}\nSièges : {seats}\n")
-
-            btn_frame = tk.Frame(result_text)
-            btn = tk.Button(btn_frame, text="Sélectionner",
-                            command=lambda name=v['Nom véhicule'], price=v['Prix']: select_vehicle(name, price))
-            btn.pack(pady=5)
-            result_text.window_create(tk.END, window=btn_frame)
+            
+            tk.Label(info_frame, text=f"Nom : {v['Nom véhicule']}", anchor='w').pack(fill=tk.X)
+            tk.Label(info_frame, text=f"Catégorie : {v['Catégorie']} (Coffre: {coffre} kg)", anchor='w').pack(fill=tk.X)
+            tk.Label(info_frame, text=f"Prix : {v['Prix']}", anchor='w').pack(fill=tk.X)
+            tk.Label(info_frame, text=f"Sièges : {seats}", anchor='w').pack(fill=tk.X)
+            
+            btn_frame = tk.Frame(info_frame)
+            btn_frame.pack(pady=5)
+            tk.Button(btn_frame, text="Sélectionner",
+                     command=lambda name=v['Nom véhicule'], price=v['Prix']: select_vehicle(name, price)).pack()
+            
+            result_text.window_create(tk.END, window=result_frame)
             result_text.insert(tk.END, "\n\n")
     else:
         result_text.insert(tk.END, "Aucun véhicule trouvé.")
