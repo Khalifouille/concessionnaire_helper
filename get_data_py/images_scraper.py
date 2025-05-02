@@ -36,11 +36,17 @@ def get_image_url(vehicle_name):
         print(f"Erreur pour {vehicle_name}: {str(e)}")
     return None
 
+def sanitize_filename(name):
+    name = name.lower()
+    name = re.sub(r'[^a-z0-9]', '_', name) 
+    name = re.sub(r'_+', '_', name)
+    return name.strip('_')
+
 def download_image(url, vehicle_name):
     try:
         response = requests.get(url, stream=True, timeout=10)
         if response.status_code == 200:
-            filename = f"{OUTPUT_DIR}/{vehicle_name.replace('/', '_')}.png"
+            filename = f"{OUTPUT_DIR}/{sanitize_filename(vehicle_name)}.png"
             with open(filename, 'wb') as f:
                 for chunk in response.iter_content(1024):
                     f.write(chunk)

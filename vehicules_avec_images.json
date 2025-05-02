@@ -81,14 +81,14 @@
         "Nom véhicule": "WEEVIL",
         "Prix": "5 250 $",
         "MaxOccupants": "Inconnu",
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\Weevil.png"
     },
     {
         "Catégorie": "Compact",
         "Nom véhicule": "BRIOSO 300 LARGE",
         "Prix": "6 500 $",
         "MaxOccupants": "Inconnu",
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\Brioso 300 Large.png"
     },
     {
         "Catégorie": "Coupés",
