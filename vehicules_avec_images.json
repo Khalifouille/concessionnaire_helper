@@ -1341,7 +1341,7 @@
         "Nom véhicule": "SULTAN RSX",
         "Prix": "(INVENDA",
         "MaxOccupants": 3,
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\sultan_rs.png"
     },
     {
         "Catégorie": "Sportive",
@@ -2174,7 +2174,7 @@
         "Nom véhicule": "VIRGO CLASSIQUE CUSTOM",
         "Prix": "4 375 $",
         "MaxOccupants": 3,
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\virgo_classic_custom.png"
     },
     {
         "Catégorie": "Muscles",
@@ -2489,7 +2489,7 @@
         "Nom véhicule": "DOMINATOR GTT",
         "Prix": "52 500$",
         "MaxOccupants": 3,
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\dominator_gtx.png"
     },
     {
         "Catégorie": "Muscles",
@@ -2902,7 +2902,7 @@
         "Nom véhicule": "RANCHER XL2",
         "Prix": "3 125 $",
         "MaxOccupants": 5,
-        "Image": "Non disponible"
+        "Image": "vehicle_images\\rancher_xl.png"
     },
     {
         "Catégorie": "Tout Terrain",
