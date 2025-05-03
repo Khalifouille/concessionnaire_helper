@@ -616,10 +616,6 @@
         "MaxOccupants": 3
     },
     {
-        "DisplayName": "NULL",
-        "MaxOccupants": 1
-    },
-    {
         "DisplayName": "Docktug",
         "MaxOccupants": 2
     },
@@ -1476,10 +1472,6 @@
         "MaxOccupants": 5
     },
     {
-        "DisplayName": "Pony",
-        "MaxOccupants": 5
-    },
-    {
         "DisplayName": "Pounder",
         "MaxOccupants": 3
     },
@@ -1512,10 +1504,6 @@
         "MaxOccupants": 5
     },
     {
-        "DisplayName": "NULL",
-        "MaxOccupants": 3
-    },
-    {
         "DisplayName": "X80 Proto",
         "MaxOccupants": 3
     },
@@ -1542,14 +1530,6 @@
     {
         "DisplayName": "Rancher XL",
         "MaxOccupants": 5
-    },
-    {
-        "DisplayName": "Rancher XL",
-        "MaxOccupants": 5
-    },
-    {
-        "DisplayName": "Rapid GT",
-        "MaxOccupants": 3
     },
     {
         "DisplayName": "Rapid GT",
