@@ -896,10 +896,6 @@
         "MaxOccupants": 3
     },
     {
-        "DisplayName": "NULL",
-        "MaxOccupants": 1
-    },
-    {
         "DisplayName": "Granger",
         "MaxOccupants": 9
     },
@@ -1430,14 +1426,6 @@
     {
         "DisplayName": "Pigalle",
         "MaxOccupants": 3
-    },
-    {
-        "DisplayName": "Police Cruiser",
-        "MaxOccupants": 5
-    },
-    {
-        "DisplayName": "Police Cruiser",
-        "MaxOccupants": 5
     },
     {
         "DisplayName": "Police Cruiser",
@@ -2029,10 +2017,6 @@
     },
     {
         "DisplayName": "Trailer",
-        "MaxOccupants": 1
-    },
-    {
-        "DisplayName": "NULL",
         "MaxOccupants": 1
     },
     {
