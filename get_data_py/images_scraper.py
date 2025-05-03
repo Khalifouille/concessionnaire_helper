@@ -12,30 +12,15 @@ def load_vehicle_names(json_file):
     try:
         with open(json_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            
-            if isinstance(data, list) and len(data) > 0 and "Nom véhicule" in data[0]:
-                return [vehicle["Nom véhicule"] for vehicle in data]
-        
-            elif isinstance(data, dict):
-                possible_keys = [k for k in data.keys() if "nom" in k.lower() or "véhicule" in k.lower()]
-                if possible_keys:
-                    return list(data[possible_keys[0]].keys()) if isinstance(data[possible_keys[0]], dict) else data[possible_keys[0]]
-                
-                return list(data.keys())
-            
-            else:
-                print("⚠️ Structure du JSON non reconnue. Voici un aperçu :")
-                print(json.dumps(data, indent=2)[:500]) 
-                return []
-                
+            return [vehicle["DisplayName"] for vehicle in data]
     except Exception as e:
         print(f"❌ Erreur lors de la lecture du fichier JSON : {str(e)}")
         return []
 
 def get_image_url(vehicle_name):
     try:
-        cleaned_name = vehicle_name.split('(')[0].strip().replace(' ', '_')
-        url = f"https://gta.fandom.com/wiki/{cleaned_name}"
+        wiki_name = vehicle_name.replace(' ', '_').split('(')[0].strip()
+        url = f"https://gta.fandom.com/wiki/{wiki_name}"
         print(f"\n🔍 Recherche image pour : {vehicle_name} (URL: {url})")
         
         headers = {
@@ -66,8 +51,11 @@ def get_image_url(vehicle_name):
         print("❌ Aucune image trouvée avec les méthodes standards")
         return None
 
-    except requests.exceptions.RequestException as e:
-        print(f"⚠️ Erreur de requête pour {vehicle_name} : {str(e)}")
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 404:
+            print(f"⚠️ Page wiki non trouvée pour {vehicle_name}")
+        else:
+            print(f"⚠️ Erreur HTTP pour {vehicle_name} : {str(e)}")
     except Exception as e:
         print(f"⚠️ Erreur inattendue pour {vehicle_name} : {str(e)}")
     return None
@@ -83,8 +71,9 @@ def download_image(image_url, save_path):
         response = requests.get(image_url, headers=headers, stream=True, timeout=10)
         response.raise_for_status()
         
-        if 'image' not in response.headers.get('content-type', ''):
-            print(f"❌ Le fichier téléchargé n'est pas une image (Content-Type: {response.headers.get('content-type')})")
+        content_type = response.headers.get('content-type', '')
+        if 'image' not in content_type:
+            print(f"❌ Le fichier téléchargé n'est pas une image (Content-Type: {content_type})")
             return False
 
         with open(save_path, 'wb') as f:
@@ -98,9 +87,14 @@ def download_image(image_url, save_path):
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+    try:
+        with open(INPUT_JSON, 'r', encoding='utf-8') as f:
+            vehicles_data = json.load(f)
+            vehicle_names = [vehicle["DisplayName"] for vehicle in vehicles_data]
+    except Exception as e:
+        print(f"❌ Erreur de lecture du fichier JSON : {str(e)}")
+        return
 
-    vehicle_names = load_vehicle_names(INPUT_JSON)
-    
     if not vehicle_names:
         print("❌ Aucun nom de véhicule trouvé. Vérifiez la structure du fichier JSON.")
         return
@@ -117,7 +111,9 @@ def main():
                        .replace("(", "").replace(")", "")
                        .replace("/", "_")
                        .replace("'", "")
-                       .replace('"', "") + ".png")  
+                       .replace('"', "")
+                       .replace("®", "")
+                       .replace("™", "") + ".png")
             
             save_path = os.path.join(OUTPUT_DIR, filename)
             
@@ -125,8 +121,7 @@ def main():
                 print(f"ℹ️ L'image existe déjà, on passe au suivant")
                 continue
                 
-            success = download_image(image_url, save_path)
-            if not success:
+            if not download_image(image_url, save_path):
                 save_path = save_path.replace(".jpg", ".png")
                 download_image(image_url, save_path)
         
