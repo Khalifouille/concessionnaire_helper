@@ -1,86 +1,83 @@
+import os
 import json
+import time
 import requests
 from bs4 import BeautifulSoup
-import os
-import re
-from time import sleep
 
 INPUT_JSON = "nom_vehicules_occupants.json"
 OUTPUT_DIR = "vehicle_images"
-DELAY = 1
+DELAY = 1 
 
-def setup_dirs():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-def load_vehicle_names():
-    with open(INPUT_JSON, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return [v["DisplayName"] for v in data]
+def load_vehicle_names(json_file):
+    """Charge les noms des véhicules depuis un fichier JSON"""
+    try:
+        with open(json_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return [vehicle["Nom véhicule"] for vehicle in data]
+    except Exception as e:
+        print(f"❌ Erreur lors de la lecture du fichier JSON : {str(e)}")
+        return []
 
 def get_image_url(vehicle_name):
     try:
         url = f"https://gta.fandom.com/wiki/{vehicle_name.replace(' ', '_')}"
+        print(f"\n🔍 Recherche image pour : {vehicle_name}")
         response = requests.get(url, timeout=10)
+        response.raise_for_status()
+
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        figure = soup.find('figure', {'data-source': 'front_image'}) or \
-                 soup.find('figure', class_='pi-item pi-image')
-
+        figure = soup.find('figure', class_='pi-item pi-image', attrs={'data-source': 'front_image'})
         if figure:
-            img_tag = figure.find('img')
-            if img_tag and img_tag.has_attr('srcset'):
-                srcset = img_tag['srcset'].split(', ')
-                high_res_url = srcset[-1].split(' ')[0]
-                return high_res_url
-            elif img_tag and img_tag.has_attr('src'):
-                return img_tag['src']
+            a_tag = figure.find('a', href=True, class_='image image-thumbnail')
+            if a_tag:
+                image_url = a_tag['href']
+                print(f"✅ Image trouvée : {image_url}")
+                return image_url
+            else:
+                print("❌ Lien <a> image non trouvé dans la figure.")
+        else:
+            print("❌ Figure front_image non trouvée.")
     except Exception as e:
-        print(f"Erreur pour {vehicle_name}: {str(e)}")
+        print(f"⚠️ Erreur lors de la récupération pour {vehicle_name} : {str(e)}")
     return None
 
-
-def sanitize_filename(name):
-    name = name.lower()
-    name = re.sub(r'[^a-z0-9]', '_', name) 
-    name = re.sub(r'_+', '_', name)
-    return name.strip('_')
-
-def download_image(url, vehicle_name):
+def download_image(image_url, save_path):
     try:
-        response = requests.get(url, stream=True, timeout=10)
-        if response.status_code == 200:
-            filename = f"{OUTPUT_DIR}/{sanitize_filename(vehicle_name)}.png"
-            with open(filename, 'wb') as f:
-                for chunk in response.iter_content(1024):
-                    f.write(chunk)
-            return filename
+        response = requests.get(image_url, stream=True, timeout=10)
+        response.raise_for_status()
+        with open(save_path, 'wb') as f:
+            for chunk in response.iter_content(1024):
+                f.write(chunk)
+        print(f"📥 Image enregistrée : {save_path}")
     except Exception as e:
-        print(f"Échec du téléchargement pour {vehicle_name}: {str(e)}")
-    return None
+        print(f"❌ Erreur téléchargement de l'image : {str(e)}")
 
 def main():
-    setup_dirs()
-    vehicle_names = load_vehicle_names()
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    with open(INPUT_JSON, 'r', encoding='utf-8') as f:
+        vehicles_data = json.load(f)
     
-    print(f"⏳ Début du scraping pour {len(vehicle_names)} véhicules...")
+    vehicle_names = [vehicle["Nom véhicule"] for vehicle in vehicles_data]
     
-    success_count = 0
-    for i, name in enumerate(vehicle_names, 1):
-        print(f"\n🔍 Traitement [{i}/{len(vehicle_names)}]: {name}")
+    if not vehicle_names:
+        print("Aucun nom de véhicule trouvé. Vérifiez le fichier JSON.")
+        return
+
+    print(f"🚗 {len(vehicle_names)} véhicules à traiter...")
+
+    for vehicle_name in vehicle_names:
+        image_url = get_image_url(vehicle_name)
+        if image_url:
+            filename = (vehicle_name.replace(" ", "_")
+                        .replace("(", "").replace(")", "")
+                        .replace("/", "_") + ".png")
+            save_path = os.path.join(OUTPUT_DIR, filename)
+            download_image(image_url, save_path)
         
-        img_url = get_image_url(name)
-        if not img_url:
-            print(f"❌ Image non trouvée pour {name}")
-            continue
-        
-        result = download_image(img_url, name)
-        if result:
-            print(f"✅ Sauvegardé: {result}")
-            success_count += 1
-        
-        sleep(DELAY)
-    
-    print(f"\n🎉 Terminé! {success_count}/{len(vehicle_names)} images téléchargées")
+        if DELAY > 0:
+            time.sleep(DELAY)
 
 if __name__ == "__main__":
     main()
