@@ -8,29 +8,27 @@ import random
 
 INPUT_JSON = "nom_vehicules_occupants.json"
 OUTPUT_DIR = "vehicle_images"
-DELAY = 5  
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
-]
+DELAY = 1 
 
-def get_random_headers():
-    return {
-        'User-Agent': random.choice(USER_AGENTS),
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.5',
-        'Referer': 'https://www.google.com/'
-    }
-
-def google_image_search(query):
+def load_vehicle_names(json_file):
     try:
-        search_url = f"https://www.google.com/search?tbm=isch&q={quote_plus(query)}"
+        with open(json_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return [vehicle["DisplayName"] for vehicle in data]
+    except Exception as e:
+        print(f"❌ Erreur lors de la lecture du fichier JSON : {str(e)}")
+        return []
+
+def get_image_url(vehicle_name):
+    try:
+        wiki_name = vehicle_name.replace(' ', '_').split('(')[0].strip()
+        url = f"https://gta.fandom.com/wiki/{wiki_name}"
+        print(f"\n🔍 Recherche image pour : {vehicle_name} (URL: {url})")
         
-        response = requests.get(search_url, 
-                             headers=get_random_headers(),
-                             timeout=15,
-                             cookies={'CONSENT': 'YES+'})
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -44,57 +42,83 @@ def google_image_search(query):
                     return matches[0]  
 
         return None
-        
+
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 404:
+            print(f"⚠️ Page wiki non trouvée pour {vehicle_name}")
+        else:
+            print(f"⚠️ Erreur HTTP pour {vehicle_name} : {str(e)}")
     except Exception as e:
         print(f"⚠️ Erreur recherche Google : {str(e)}")
         return None
 
-def download_with_retry(image_url, save_path, retries=3):
-    for attempt in range(retries):
-        try:
-            response = requests.get(image_url,
-                                 headers=get_random_headers(),
-                                 stream=True,
-                                 timeout=10)
-            response.raise_for_status()
-            
-            with open(save_path, 'wb') as f:
-                for chunk in response.iter_content(1024):
-                    f.write(chunk)
-            return True
-            
-        except Exception as e:
-            if attempt == retries - 1:
-                print(f"❌ Échec après {retries} tentatives : {str(e)}")
-                return False
-            time.sleep(2)
+def download_image(image_url, save_path):
+    try:
+        if not image_url:
+            return False
+
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(image_url, headers=headers, stream=True, timeout=10)
+        response.raise_for_status()
+        
+        content_type = response.headers.get('content-type', '')
+        if 'image' not in content_type:
+            print(f"❌ Le fichier téléchargé n'est pas une image (Content-Type: {content_type})")
+            return False
+
+        with open(save_path, 'wb') as f:
+            for chunk in response.iter_content(1024):
+                f.write(chunk)
+        print(f"📥 Image enregistrée : {save_path}")
+        return True
+    except Exception as e:
+        print(f"❌ Erreur téléchargement de l'image : {str(e)}")
+        return False
 
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    queries = [
-        "Banshee GTA 5",
-        "Banshee Grand Theft Auto",
-        "Banshee GTA V screenshot",
-        "Banshee GTA Online"
-    ]
-    
-    for query in queries:
-        print(f"\n🔍 Tentative avec : '{query}'")
-        image_url = google_image_search(query)
+    try:
+        with open(INPUT_JSON, 'r', encoding='utf-8') as f:
+            vehicles_data = json.load(f)
+            vehicle_names = [vehicle["DisplayName"] for vehicle in vehicles_data]
+    except Exception as e:
+        print(f"❌ Erreur de lecture du fichier JSON : {str(e)}")
+        return
+
+    if not vehicle_names:
+        print("❌ Aucun nom de véhicule trouvé. Vérifiez la structure du fichier JSON.")
+        return
+
+    print(f"🚗 {len(vehicle_names)} véhicules à traiter...")
+    print(f"Exemples : {vehicle_names[:3]}...")
+
+    for i, vehicle_name in enumerate(vehicle_names, 1):
+        print(f"\n[{i}/{len(vehicle_names)}] Traitement de : {vehicle_name}")
         
+        image_url = get_image_url(vehicle_name)
         if image_url:
-            print(f"✅ URL trouvée : {image_url}")
-            filename = f"Banshee_{query.split(' ')[-1]}.jpg"
+            filename = (vehicle_name.replace(" ", "_")
+                       .replace("(", "").replace(")", "")
+                       .replace("/", "_")
+                       .replace("'", "")
+                       .replace('"', "")
+                       .replace("®", "")
+                       .replace("™", "") + ".png")
+            
             save_path = os.path.join(OUTPUT_DIR, filename)
             
-            if download_with_retry(image_url, save_path):
-                print(f"📥 Sauvegarde réussie : {filename}")
-                break
-        else:
-            print("❌ Aucun résultat")
+            if os.path.exists(save_path):
+                print(f"ℹ️ L'image existe déjà, on passe au suivant")
+                continue
+                
+            if not download_image(image_url, save_path):
+                save_path = save_path.replace(".jpg", ".png")
+                download_image(image_url, save_path)
         
-        time.sleep(DELAY)
+        if DELAY > 0 and i < len(vehicle_names):
+            time.sleep(DELAY)
 
 if __name__ == "__main__":
     main()
