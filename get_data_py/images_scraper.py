@@ -22,19 +22,22 @@ def get_image_url(vehicle_name):
         url = f"https://gta.fandom.com/wiki/{vehicle_name.replace(' ', '_')}"
         response = requests.get(url, timeout=10)
         soup = BeautifulSoup(response.text, 'html.parser')
-        
+
         figure = soup.find('figure', {'data-source': 'front_image'}) or \
                  soup.find('figure', class_='pi-item pi-image')
-        
+
         if figure:
-            img_tag = figure.find('img', {'data-image-name': True})
-            if img_tag:
-                thumbnail_url = img_tag.get('src', '')
-                if thumbnail_url:
-                    return re.sub(r'/scale-to-width-down/\d+', '', thumbnail_url.split('?')[0]) + '?' + thumbnail_url.split('?')[-1]
+            img_tag = figure.find('img')
+            if img_tag and img_tag.has_attr('srcset'):
+                srcset = img_tag['srcset'].split(', ')
+                high_res_url = srcset[-1].split(' ')[0]
+                return high_res_url
+            elif img_tag and img_tag.has_attr('src'):
+                return img_tag['src']
     except Exception as e:
         print(f"Erreur pour {vehicle_name}: {str(e)}")
     return None
+
 
 def sanitize_filename(name):
     name = name.lower()
